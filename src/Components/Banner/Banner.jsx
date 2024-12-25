@@ -21,11 +21,11 @@ function Banner() {
       <div className="col ps-4 pe-0">
         <div className="d-flex flex-column gap-4">
           <div className="linear-gradient">
-            <span className="text-white">Welcome to Prodigy</span>
+            <span className="text-white">Welcome to prodigy</span>
           </div>
           <h1 className="fw-semibold">Ignite Your Online Performance</h1>
           <p>
-            At Prodigy, we help clients navigate the dynamic digital landscape
+            At prodigy, we help clients navigate the dynamic digital landscape
             and achieve their marketing objectives with precision and impact.
           </p>
           <div className="d-flex flex-row gap-4">

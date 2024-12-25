@@ -1,4 +1,14 @@
 import React from 'react'
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { SlSocialInstagram } from "react-icons/sl";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMdCall } from "react-icons/io";
+import { BiLogoGmail } from "react-icons/bi";
+
+
+
+
 
 function Footer() {
   return (
@@ -23,17 +33,17 @@ function Footer() {
               </p>
               <div className="social-container mb-lg-0 mb-3">
                 <a href="https://www.facebook.com" className="social-item">
-                  <i className="fa-brands fa-xs fa-facebook-f" />
+                  <i className="fa-brands fa-xs fa-facebook-f"><FaFacebookF /></i>
                 </a>
                 <a href="https://www.twitter.com" className="social-item">
-                  <i className="fa-brands fa-xs fa-twitter" />
+                  <i className="fa-brands fa-xs fa-twitter"><FaXTwitter /></i>
                 </a>
                 <a href="https://www.instagram.com" className="social-item">
-                  <i className="fa-brands fa-xs fa-instagram" />
+                  <i className="fa-brands fa-xs fa-instagram"><SlSocialInstagram /></i>
                 </a>
-                <a href="https://www.youtube.com" className="social-item">
+                {/* <a href="https://www.youtube.com" className="social-item">
                   <i className="fa-brands fa-xs fa-youtube" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -138,7 +148,7 @@ function Footer() {
                     <li>
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
-                          <i className="fa-solid fa-2xs fa-location-dot" />
+                          <i className="fa-solid fa-2xs fa-location-dot"><FaLocationDot /></i>
                         </div>
                         KLLG st, No.99, Pku City, ID 28289
                       </span>
@@ -146,7 +156,7 @@ function Footer() {
                     <li>
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
-                          <i className="fa-solid fa-2xs fa-phone" />
+                          <i className="fa-solid fa-2xs fa-phone"><IoMdCall /></i>
                         </div>
                         0761-8523-398
                       </span>
@@ -154,19 +164,19 @@ function Footer() {
                     <li>
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
-                          <i className="fa-solid fa-2xs fa-envelope" />
+                          <i className="fa-solid fa-2xs fa-envelope"><BiLogoGmail /> </i>
                         </div>
                         hello@domainsite.com
                       </span>
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-globe" />
                         </div>
                         www.domainsite.com
                       </span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

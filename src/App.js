@@ -1,32 +1,33 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './Components/About/About';
-import Banner from './Components/Banner/Banner';
-import Counter from './Components/Counter/Counter';
-import Ctc from './Components/Ctc/Ctc';
+import Home from './Components/Home';
 import Navi from './Components/Navi/Navi';
-import Team from './Components/OurTeam/Team';
-import Footer from './Components/Price/Footer/Footer';
-import Price from './Components/Price/Price';
-import Project from './Components/Price/Project';
-import Service from './Components/Service/Service';
-import Testimonial from './Components/Testimonial/Testimonial';
-import Whychoo from './Components/WhyChoo/Whychoo';
+import Aboutppp from './Components/AboutPP/Aboutppp';
+import ServicerPage from './Page/ServicerPage';
+import OttPage from './Page/OttPage';
+import BrandPage from './Page/BrandPage';
+import ContactPage from './Page/ContactPage';
+import Whatsappiconwhatsappicin from './Components/whatsapp/whatsappicin';
+
+
+
 
 function App() {
   return (
     <div className="App">
          <Navi/>
-         <Banner/>
-         <About/>
-         <Ctc/>
-         <Service/>
-         <Whychoo/>
-         <Team/>
-         <Counter/>
-         <Testimonial/>
-         <Price/>
-         <Project/>
-         <Footer/>
+         <Whatsappiconwhatsappicin/>
+         <Routes >
+         <Route path='/' element = {<Home/>} />
+         <Route path='/aboutpage' element= {<Aboutppp/>}/>
+         <Route path='/service' element= {<ServicerPage/>}/>
+         <Route path='/ott'element={<OttPage/>}/>
+         <Route path='/brand' element={<BrandPage/>}/>
+         <Route path='/contact' element={<ContactPage/>} />
+         
+         
+         </Routes>
+         
     </div>
   );
 }

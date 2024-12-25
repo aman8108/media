@@ -1,6 +1,16 @@
 import React from 'react'
 import { CiStar } from "react-icons/ci";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function Testimonial() {
   return (
@@ -14,7 +24,7 @@ function Testimonial() {
             <div className="linear-gradient">
               <span className="text-white">Testimonials</span>
             </div>
-            <h3 className="fw-bold">What Our Clients Saying About Prodigy</h3>
+            <h3 className="fw-bold">What Our Clients Saying About prodigy</h3>
             <p className="text-color-2">
               Here’s a testimonial from a satisfied client who embarked on a
               journey towards financial prosperity with the help of our esteemed
@@ -119,7 +129,7 @@ function Testimonial() {
                     </div>
                     <span className="fst-italic" style={{ fontSize: 24 }}>
                       {" "}
-                      “Working with Prodigy was an absolute pleasure. Their team
+                      “Working with prodigy was an absolute pleasure. Their team
                       transformed our outdated website into a more modern and
                       user-friendly platform. The results speak "
                     </span>
@@ -148,7 +158,7 @@ function Testimonial() {
                     </div>
                     <span className="fst-italic" style={{ fontSize: 24 }}>
                       {" "}
-                      “Working with Prodigy was an absolute pleasure. Their team
+                      “Working with prodigy was an absolute pleasure. Their team
                       transformed our outdated website into a more modern and
                       user-friendly platform. The results speak "
                     </span>
@@ -160,6 +170,12 @@ function Testimonial() {
                   aria-label="3 / 3"
                   style={{ width: 553, marginRight: 10 }}
                 >
+
+
+
+
+
+
                   <div className="d-flex flex-column gap-3 p-5">
                     <div className="d-flex flex-row gap-3 align-items-center">
                       <div className="customer-item">
@@ -175,42 +191,57 @@ function Testimonial() {
                         <span style={{ fontSize: 12 }}>Support Manager</span>
                       </div>
                     </div>
-                    <span className="fst-italic" style={{ fontSize: 24 }}>
-                      {" "}
-                      “Working with Prodigy was an absolute pleasure. Their team
-                      transformed our outdated website into a more modern and
-                      user-friendly platform. The results speak "
-                    </span>
+                    
                   </div>
+                  
                 </div>
+                
               </div>
-              {/* If we need pagination */}
-              {/* <div className="swiper-pagination d-flex justify-content-xl-start justify-content-center ps-xl-5 ps-0 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                <span
-                  className="swiper-pagination-bullet swiper-pagination-bullet-active"
-                  tabIndex={0}
-                  role="button"
-                  aria-label="Go to slide 1"
-                  aria-current="true"
-                />
-                <span
-                  className="swiper-pagination-bullet"
-                  tabIndex={0}
-                  role="button"
-                  aria-label="Go to slide 2"
-                />
-                <span
-                  className="swiper-pagination-bullet"
-                  tabIndex={0}
-                  role="button"
-                  aria-label="Go to slide 3"
-                />
-              </div> */}
+              
               <span
                 className="swiper-notification"
                 aria-live="assertive"
                 aria-atomic="true"
               />
+                 <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+      <SwiperSlide>
+      <span className="fst-italic" style={{ fontSize: 24 }}>
+                      {" "}
+                      “Working with prodigy was an absolute pleasure. Their team
+                      transformed our outdated website into a more modern and
+                      user-friendly platform. The results speak "
+                    </span>
+      </SwiperSlide>
+      <SwiperSlide>
+      <span className="fst-italic" style={{ fontSize: 24 }}>
+                      {" "}
+                      “Working with prodigy was an absolute pleasure. Their team
+                      transformed our outdated website into a more modern and
+                      user-friendly platform. The results speak "
+                    </span>
+      </SwiperSlide>
+      <SwiperSlide>
+      <span className="fst-italic" style={{ fontSize: 24 }}>
+                      {" "}
+                      “Working with prodigy was an absolute pleasure. Their team
+                      transformed our outdated website into a more modern and
+                      user-friendly platform. The results speak "
+                    </span>
+      </SwiperSlide>
+      </Swiper>
             </div>
           </div>
         </div>
