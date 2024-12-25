@@ -8,6 +8,7 @@ import OttPage from './Page/OttPage';
 import BrandPage from './Page/BrandPage';
 import ContactPage from './Page/ContactPage';
 import Whatsappiconwhatsappicin from './Components/whatsapp/whatsappicin';
+import DetailsPage from './Page/DetailsPage';
 
 
 
@@ -24,6 +25,7 @@ function App() {
          <Route path='/ott'element={<OttPage/>}/>
          <Route path='/brand' element={<BrandPage/>}/>
          <Route path='/contact' element={<ContactPage/>} />
+         <Route path='/detai' element={<DetailsPage/>} />
          
          
          </Routes>

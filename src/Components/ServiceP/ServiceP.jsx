@@ -2,6 +2,7 @@ import React from 'react'
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import Service from '../Service/Service';
 import Footer from '../Price/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 function ServiceP() {
@@ -68,7 +69,7 @@ function ServiceP() {
                   boosting your to website's visibility in search engine results.
                 </p>
                 <a href="#" className="learn">
-                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                  <i to className="fa-solid fa-arrow-right"><Link to="detai"><FaArrowAltCircleRight /></Link></i>
                 </a>
               </div>
             </div>
