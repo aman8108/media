@@ -9,7 +9,7 @@ function Banner() {
         <div className="section position-relative ps-0">
   <div className="floating-banner">
     <img
-      src="https://prositus.rometheme.pro/html/demos/Faunten Network/image/image-1920x1280-19.jpg"
+      src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-1920x1280-19.jpg"
       alt=""
       className="img-fluid"
       style={{ borderTopRightRadius: "30em", borderBottomRightRadius: "30em" }}
@@ -58,7 +58,7 @@ function Banner() {
   <div className="d-flex mb-4" style={{ overflowX: "auto", gap: "10px" }}>
     <div className="d-flex justify-content-center">
       <img
-        src="https://prositus.rometheme.pro/html/demos/Faunten Network/image/Logo-2.png"
+        src="https://prositus.rometheme.pro/html/demos/prodigy/image/Logo-2.png"
         className="img-fluid"
         alt="Logo 1"
         style={{ width: "117.25px" }}
@@ -66,7 +66,7 @@ function Banner() {
     </div>
     <div className="d-flex justify-content-center">
       <img
-        src="https://prositus.rometheme.pro/html/demos/Faunten Network/image/Logo-2.png"
+        src="https://prositus.rometheme.pro/html/demos/prodigy/image/Logo-2.png"
         className="img-fluid"
         alt="Logo 2"
         style={{ width: "117.25px" }}
@@ -74,7 +74,7 @@ function Banner() {
     </div>
     <div className="d-flex justify-content-center">
       <img
-        src="https://prositus.rometheme.pro/html/demos/Faunten Network/image/Logo-2.png"
+        src="https://prositus.rometheme.pro/html/demos/prodigy/image/Logo-2.png"
         className="img-fluid"
         alt="Logo 3"
         style={{ width: "117.25px" }}
@@ -82,7 +82,7 @@ function Banner() {
     </div>
     <div className="d-flex justify-content-center">
       <img
-        src="https://prositus.rometheme.pro/html/demos/Faunten Network/image/Logo-2.png"
+        src="https://prositus.rometheme.pro/html/demos/prodigy/image/Logo-2.png"
         className="img-fluid"
         alt="Logo 4"
         style={{ width: "117.25px" }}
