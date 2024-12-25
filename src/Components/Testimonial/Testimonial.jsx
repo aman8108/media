@@ -24,7 +24,7 @@ function Testimonial() {
             <div className="linear-gradient">
               <span className="text-white">Testimonials</span>
             </div>
-            <h3 className="fw-bold">What Our Clients Saying About prodigy</h3>
+            <h3 className="fw-bold">What Our Clients Saying About Faunten Network</h3>
             <p className="text-color-2">
               Here’s a testimonial from a satisfied client who embarked on a
               journey towards financial prosperity with the help of our esteemed
@@ -220,7 +220,7 @@ function Testimonial() {
       <SwiperSlide>
       <span className="fst-italic" style={{ fontSize: 24 }}>
                       {" "}
-                      “Working with prodigy was an absolute pleasure. Their team
+                      “Working with Faunten Network was an absolute pleasure. Their team
                       transformed our outdated website into a more modern and
                       user-friendly platform. The results speak "
                     </span>
@@ -228,7 +228,7 @@ function Testimonial() {
       <SwiperSlide>
       <span className="fst-italic" style={{ fontSize: 24 }}>
                       {" "}
-                      “Working with prodigy was an absolute pleasure. Their team
+                      “Working with Faunten Network was an absolute pleasure. Their team
                       transformed our outdated website into a more modern and
                       user-friendly platform. The results speak "
                     </span>
@@ -236,7 +236,7 @@ function Testimonial() {
       <SwiperSlide>
       <span className="fst-italic" style={{ fontSize: 24 }}>
                       {" "}
-                      “Working with prodigy was an absolute pleasure. Their team
+                      “Working with Faunten Network was an absolute pleasure. Their team
                       transformed our outdated website into a more modern and
                       user-friendly platform. The results speak "
                     </span>
