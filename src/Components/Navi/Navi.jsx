@@ -41,57 +41,15 @@ function Navi() {
                       Home
                     </Link>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      About Us
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <a className="dropdown-item" href="about.html">
-                          <Link to="aboutPage">
-                          About Us
-                          </Link>
-                          
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="team.html">
-                          Team
-                        </a>
-                      </li>
-                    </ul>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/aboutPage">
+                      About
+                    </Link>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <Link to='/service'>
-                      
-                      Services
-                      </Link>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <Link  className="dropdown-item" to="service">
-                          Services
-                        </Link>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="service_detail.html">
-                          Service Details
-                        </a>
-                      </li>
-                    </ul>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/service">
+                      Service
+                    </Link>
                   </li>
                   <li className="nav-item dropdown">
                     <a
@@ -122,7 +80,7 @@ function Navi() {
                      
                     </ul>
                   </li>
-                  <li className="nav-item dropdown">
+                  {/* <li className="nav-item dropdown">
                     <a
                       className="nav-link dropdown-toggle"
                       href="#"
@@ -144,7 +102,7 @@ function Navi() {
                         </a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link className="nav-link" to="/contact">
                       Contact

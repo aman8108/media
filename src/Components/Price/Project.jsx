@@ -10,10 +10,10 @@ function Project() {
       <div className="col col-xl-7 mb-3">
         <div className="d-flex flex-column gap-3 pe-xl-5">
           <div className="linear-gradient">
-            <span className="text-white">Our Project</span>
+            <span className="text-white devidd">Our Project</span>
           </div>
           <h3 className="fw-bold">Igniting Growth Through Strategic Digital</h3>
-          <p className="text-color-2">
+          <p className="text-color-2 devidd">
             In today's digital-centric world, businesses need to adopt
             innovative strategies to stand out amidst the online noise. Digital
             marketing techniques to enhance their visibility, engagement, and
@@ -24,17 +24,17 @@ function Project() {
               <div className="icon-box-2">
                 <i className="fa-solid fa-arrow-right"><MdVerified /></i>
               </div>
-              <span className="text-color fs-5">
+              <span className="text-color fs-5 devidd">
                 Optimizing Social Media Advertising for Increased Brand
               </span>
             </div>
           </a>
-          <a href="project_detail.html">
+          <a href="project_detail.html text-decoration-none ">
             <div className="d-flex flex-row gap-3 align-items-center">
               <div className="icon-box-2">
                 <i className="fa-solid fa-arrow-right"><MdVerified /></i>
               </div>
-              <span className="text-color fs-5">
+              <span className="text-color fs-5 text-color">
                 Data Analytics Dashboard for Marketing Insights
               </span>
             </div>
@@ -44,7 +44,7 @@ function Project() {
               <div className="icon-box-2">
                 <i className="fa-solid fa-arrow-right"><MdVerified /></i>
               </div>
-              <span className="text-color fs-5">
+              <span className="text-color fs-5 devidd">
                 Influencer Marketing Platform
               </span>
             </div>
@@ -54,7 +54,7 @@ function Project() {
               <div className="icon-box-2">
                 <i className="fa-solid fa-arrow-right"><MdVerified /></i>
               </div>
-              <span className="text-color fs-5">
+              <span className="text-color fs-5 devidd">
                 Augmented Reality (AR) Marketing Campaigns
               </span>
             </div>
@@ -70,8 +70,8 @@ function Project() {
             width="100%"
           />
           <div className="d-flex flex-column gap-1">
-            <h2>Data-Driven Digital Marketing</h2>
-            <p className="text-color-2">
+            <h2 className='devidd'>Data-Driven Digital Marketing</h2>
+            <p className="text-color-2  devidd">
               Each business is unique, and one-size-fits-all approaches rarely
               deliver exceptional results. The best SEO agencies take the time
               to understand their clients' specific goals.

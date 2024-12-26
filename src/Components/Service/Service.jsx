@@ -11,10 +11,10 @@ function Service() {
         style={{ maxWidth: 567 }}
       >
         <div className="linear-gradient">
-          <span className="text-white">Our Services</span>
+          <span className="text-white devidd">Our Services</span>
         </div>
-        <h3 className="fw-semibold">Safeguarding Your Brand's Online Image</h3>
-        <p className="text-color-2">
+        <h3 className="fw-semibold devidd">Safeguarding Your Brand's Online Image</h3>
+        <p className="text-color-2 devidd">
           We offer a comprehensive suite of digital marketing services designed
           to catapult your brand into the digital spotlight.
         </p>
@@ -30,8 +30,8 @@ function Service() {
                   alt=""
                 />
               </div>
-              <h4 className="text-color">Digital Strategy Development</h4>
-              <p className="font-1 text-color-2">
+              <h4 className="text-color devidd">Digital Strategy Development</h4>
+              <p className="font-1 text-color-2 devidd">
                 Crafting a comprehensive digital strategy tailored to your
                 brand's goals and target audience.
               </p>
@@ -48,8 +48,8 @@ function Service() {
                   alt=""
                 />
               </div>
-              <h4 className="text-color">Social Media Management</h4>
-              <p className="font-1 text-color-2">
+              <h4 className="text-color devidd">Social Media Management</h4>
+              <p className="font-1 text-color-2 devidd">
                 Analyzing performance metrics and optimizing strategies to
                 improve reach and engagement.
               </p>
@@ -62,8 +62,8 @@ function Service() {
               <div className="icon-box">
                 <img src="https://prositus.rometheme.pro/html/demos/prodigy/image/seo.png" className="img-fluid" alt="" />
               </div>
-              <h4 className="text-color">Search Engine Optimization (SEO)</h4>
-              <p className="font-1 text-color-2">
+              <h4 className="text-color devidd">Search Engine Optimization (SEO)</h4>
+              <p className="font-1 text-color-2 devidd">
                 Building high-quality backlinks from reputable websites to
                 increase domain authority.
               </p>
