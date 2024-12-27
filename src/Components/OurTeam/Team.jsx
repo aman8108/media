@@ -122,11 +122,11 @@ function Team() {
         </div>
       </div>
     </div>
-    <div className="d-flex justify-content-center">
+    {/* <div className="d-flex justify-content-center">
       <a href="team.html" className="btn btn-accent px-5 py-3 rounded-pill">
         All Team
       </a>
-    </div>
+    </div> */}
   </div>
 </div>
 

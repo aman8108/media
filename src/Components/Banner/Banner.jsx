@@ -5,8 +5,7 @@ import { CiPlay1 } from "react-icons/ci";
 function Banner() {
   return (
     <>
-      <section>
-        <div className="section position-relative ps-0">
+      <div className="section position-relative ps-0">
   <div className="floating-banner">
     <img
       src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-1920x1280-19.jpg"
@@ -97,7 +96,6 @@ function Banner() {
     </div>
   </div>
 </div>
-      </section>
 
     </>
   )

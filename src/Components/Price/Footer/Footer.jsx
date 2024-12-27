@@ -5,7 +5,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
-
+import imgg from "../../Assets/fLogo.jpg"
 
 
 
@@ -21,10 +21,10 @@ function Footer() {
           <div className="col col-lg-4 mb-3">
             <div className="d-flex flex-column gap-3">
               <img
-                src="image/logo.png"
+                src={imgg}
                 alt=""
                 className="img-fluid"
-                width={160}
+                width={100}
               />
               <p className="text-color-2">
                 Lorem ipsum dolor sit amet consectetur adipiscing mauris

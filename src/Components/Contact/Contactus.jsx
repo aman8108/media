@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { IoLocationOutline } from "react-icons/io5";
+import { CgMail } from "react-icons/cg";
+import { IoCallOutline } from "react-icons/io5";
+
 
 function Contactus() {
   const [formData, setFormData] = useState({
@@ -82,7 +86,7 @@ function Contactus() {
                       <div className="col mb-3">
                         <span className="d-flex flex-row gap-3">
                           <div className="contact-item">
-                            <i className="fa-solid fa-2xs fa-location-dot" />
+                            <i className="fa-solid fa-2xs fa-location-dot"><IoLocationOutline /></i>
                           </div>
                           KLLG st, No.99, Pku City, ID 28289
                         </span>
@@ -90,7 +94,7 @@ function Contactus() {
                       <div className="col mb-3">
                         <span className="d-flex flex-row gap-3">
                           <div className="contact-item">
-                            <i className="fa-solid fa-2xs fa-phone" />
+                            <i className="fa-solid fa-2xs fa-phone"><IoCallOutline /></i>
                           </div>
                           0761-8523-398
                         </span>
@@ -100,19 +104,19 @@ function Contactus() {
                       <div className="col mb-3">
                         <span className="d-flex flex-row gap-3">
                           <div className="contact-item">
-                            <i className="fa-solid fa-2xs fa-envelope" />
+                            <i className="fa-solid fa-2xs fa-envelope"><CgMail /></i>
                           </div>
                           hello@domainsite.com
                         </span>
                       </div>
-                      <div className="col mb-3">
+                      {/* <div className="col mb-3">
                         <span className="d-flex flex-row gap-3">
                           <div className="contact-item">
                             <i className="fa-solid fa-2xs fa-globe" />
                           </div>
                           www.domainsite.com
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

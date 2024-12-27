@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-      <div className="section pt-0">
+      <div className="section pt-0 mt-5">
   <div className="r-container">
     <div className="row row-cols-lg-2 row-cols-1 align-items-center">
       <div className="col px-4">

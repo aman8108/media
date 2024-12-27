@@ -1,5 +1,5 @@
 import React from 'react';
-import imgg from '../Assets/Fauntain.jpg';
+import imgg from '../Assets/fLogo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from 'react-router-dom';
@@ -12,12 +12,12 @@ function Navi() {
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid ps-3">
               <div className="logo-container">
-                <a
+                <Link
                   className="navbar-brand"
-                  href="https://prositus.rometheme.pro/html/"
+                  to="/"
                 >
-                  {/* <img src={imgg} alt="" className="img-fluid" /> */}
-                </a>
+                  <img src={imgg} alt="" className="img-fluid" />
+                </Link>
               </div>
               <button
                 className="navbar-toggler"

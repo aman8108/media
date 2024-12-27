@@ -74,22 +74,33 @@ h1 {
 
 h2 {
     font-size: 60px;
+    text-decoration: none ;
+    list-style: none;
 }
 
 h3 {
     font-size: 50px;
+    text-decoration: none ;
+    list-style: none;
 }
 
 h4 {
     font-size: 24px;
+    text-decoration: none ;
+    list-style: none;
 }
 
 h5 {
     font-size: 20px;
+    text-decoration: none ;
+    list-style: none;
 }
 
 h6 {
     font-size: 18px;
+    text-decoration: none ;
+    list-style: none;
+
 }
 
 span,
@@ -103,9 +114,13 @@ p {
     font-size: 16px;
     font-family: var(--font-1);
     font-weight: normal;
+    text-decoration: none ;
+    list-style: none;
 }
 
 ul {
+    list-style: none;
+    text-decoration: none ;
     list-style: none;
 }
 
@@ -116,6 +131,8 @@ ul {
 li {
     font-size: 16px;
     font-family: var(--font-1);
+    text-decoration: none ;
+    list-style: none;
 }
 
 img {
@@ -128,6 +145,10 @@ button {
     padding-block: 0.5rem;
     text-decoration: none;
     transition: all 0.5s;
+}
+
+.navbar-brand img{
+    width: 500px;
 }
 
 .sub-heading {
@@ -157,7 +178,8 @@ button:hover {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    
 }
 
 .w-max-content {
@@ -609,7 +631,7 @@ a {
 }
 
 .logo-container {
-    max-width: 180px;
+    max-width: 80px;
 }
 
 

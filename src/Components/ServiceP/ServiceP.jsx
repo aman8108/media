@@ -65,8 +65,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Search Engine Optimization (SEO) best marketing is essential for
-                  boosting your to website's visibility in search engine results.
+                Unlock the true potential of your brand with Fox Media's comprehensive brand-building services.
                 </p>
                 <a href="#" className="learn">
                   <i to className="fa-solid fa-arrow-right"><Link to="detai"><FaArrowAltCircleRight /></Link></i>
@@ -78,7 +77,7 @@ function ServiceP() {
           <div className="col-lg-4 col-md-6">
             <div className="service3-box">
               <div className="image">
-                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img3.png" alt="" />
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img2.png" alt="" />
               </div>
               <div className="heading3">
                 <h4>
@@ -86,8 +85,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Expand your audience by advertising on Bing. Our Bing Ads
-                  management services include campaign creation, optimization.
+                Put your business on the digital map with Fox Media's Google My Business (GMB) optimization.
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -125,8 +123,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Engage your audience with personalized email campaigns tailored
-                  to their interests and behaviors, we create customized.
+                Ready to explore the forefront of advertising with Meta Ads (or Facebook Ads)..
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -146,8 +143,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Discover the keywords your competitors are targeting. We conduct
-                  thorough best keyword research to identify the terms.
+                Dive into the sphere of industry thought leaders and social media stars with Fox Media's influencer marketing services.
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -166,8 +162,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Discover the keywords your competitors are targeting. We conduct
-                  thorough best keyword research to identify the terms.
+                Seeking targeted traffic, increased brand visibility, and amplified conversions for your business
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -178,7 +173,7 @@ function ServiceP() {
           <div className="col-lg-4 col-md-6">
             <div className="service3-box">
               <div className="image">
-                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img6.png" alt="" />
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img5.png" alt="" />
               </div>
               <div className="heading3">
                 <h4>
@@ -186,8 +181,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Discover the keywords your competitors are targeting. We conduct
-                  thorough best keyword research to identify the terms.
+                  At Faunten Media, we comprehend that exceptional design transcends mere aesthetics.
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -198,7 +192,7 @@ function ServiceP() {
           <div className="col-lg-4 col-md-6">
             <div className="service3-box">
               <div className="image">
-                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img6.png" alt="" />
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img3.png" alt="" />
               </div>
               <div className="heading3">
                 <h4>
@@ -207,8 +201,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  Discover the keywords your competitors are targeting. We conduct
-                  thorough best keyword research to identify the terms.
+                Effective marketing extends beyond digital platforms. Outdoor Marketing serves an imperative role ..
                 </p>
                 <a href="#" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
