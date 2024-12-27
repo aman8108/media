@@ -6,7 +6,7 @@ function OttP() {
     <>
      <div className="banner">
       <h1>OTT PLATFORM</h1>
-      <p>Your one-stop solution for all your needs.</p>
+      <p>Endless entertainment" resonates with diverse audiences</p>
     </div>
       <section>
         <div className="container">

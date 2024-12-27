@@ -7,7 +7,7 @@ function Brand() {
   
   <div className="bannerr">
       <h1>BRAND</h1>
-      <p>Your one-stop solution for all your needs.</p>
+      <p>Builds Trust: Emphasizes reliability and credibility with "trust.</p>
     </div>
 
 

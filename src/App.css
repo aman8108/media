@@ -2456,5 +2456,152 @@ section, section .titleSection {
     border-radius: 5px;
     color: #00796b;
   }
+
+  .event-page-style2-area{
+    position: relative;
+    display: block;
+    background: #f2f7ff;
+    padding: 150px 0 110px;
+}
+.event-page-style2-area .row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.event-page-style2-area .row [class*=col-] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.event-page-style2-area .sec-title{
+    padding-bottom: 56px;
+}
+.event-page-style2-area .sec-title .big-title {
+    left: 0;
+    right: 0;
+}
+.event-page-style2-area .single-event-style2 {
+    margin-bottom: 40px;
+}
+.event-style2-area{
+    position: relative;
+    display: block;
+    background: #f2f7ff;
+    padding: 150px 0 150px;
+}
+.event-style2-area .sec-title.style2 {
+    padding-bottom: 36px;
+}
+.single-event-style2 {
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 15px 2px rgba(43,105,196,0.1); 
+    box-shadow: 0px 5px 15px 2px rgba(43,105,196,0.1);
+}
+.single-event-style2 .img-holder{
+    position: relative;
+    width: 200px;
+}
+.single-event-style2 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.single-event-style2 .img-holder .inner img{
+    width: 100%;
+}
+.single-event-style2 .img-holder,
+.single-event-style2 .text-holder{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-event-style2 .text-holder{
+    position: relative;
+    background: #ffffff; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 30px;
+}
+.single-event-style2 .text-holder .time{
+    position: relative;
+    display: block;
+    color: #337ce8;    
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.single-event-style2 .text-holder .time span:before{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+.single-event-style2 .text-holder h3{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 17px 0 16px;
+}
+.single-event-style2 .text-holder h3 a{
+    color: #1f293b;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-event-style2:hover .text-holder h3 a{
+    color: #337ce8;        
+}
+.single-event-style2 .text-holder .text{
+    position: relative;
+    display: block;
+}
+.single-event-style2 .text-holder .text p{
+    margin: 0;
+    line-height: 30px;
+}
+.event-carousel{}
+.event-carousel.owl-carousel.owl-dot-style1 .owl-stage-outer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+
+.single-event-style2 .text-holder h3 a {
+    color: #1f293b !important;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-event-style2 .text-holder h3 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+    margin: 17px 0 16px !important;
+}
+
+.event-page-style2-area .sec-title .big-title {
+    left: 0;
+    right: 0;
+}
+.sec-title .big-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1f293b;
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: .07;
+}
+
+h3 a{
+    font-size: 16px !important;
+    font-family: var(--font-1) !important;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+}
   
   

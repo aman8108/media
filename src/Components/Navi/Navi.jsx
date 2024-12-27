@@ -69,13 +69,13 @@ function Navi() {
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/brand">
-                          Branda
+                          Brand
                         </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="price_plan.html">
+                        <Link className="dropdown-item" to="/music">
                           Song Compaign
-                        </a>
+                        </Link>
                       </li>
                      
                     </ul>
