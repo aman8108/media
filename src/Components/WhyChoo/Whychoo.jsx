@@ -14,7 +14,7 @@ function Whychoo() {
             <img
               src="https://prositus.rometheme.pro/html/demos/prodigy/image/Digital-Marketing-2.png"
               alt=""
-              className="img-fluid rounded-4"
+              className="img-fluid-abt rounded-4"
               width="100%"
             />
           </div>
@@ -23,7 +23,7 @@ function Whychoo() {
       <div className="col col-xl-7 px-4">
         <div className="d-flex flex-column gap-3 pe-xl-5 text-center text-xl-start align-items-center align-items-xl-start">
           <div className="linear-gradient">
-            <span className="text-white">Why Choose Us</span>
+            <span className="">Why Choose Us</span>
           </div>
           <h3 className="fw-bold">
             Pioneering the Future of Digital Marketing

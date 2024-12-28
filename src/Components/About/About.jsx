@@ -9,7 +9,7 @@ function About() {
       <div className="col px-4">
         <div className="d-flex flex-column gap-4 pe-lg-3 border-bottom border-1 border-dark pb-5 align-items-center align-items-xl-start">
           <div className="linear-gradient">
-            <span className="text-white">About Company</span>
+            <span className="fntitle">About Company</span>
           </div>
           <h3 className="font-1 fw-bold">
             Join Our Journey of Digital Discovery
@@ -47,7 +47,7 @@ function About() {
             <img
               src="https://prositus.rometheme.pro/html/demos/prodigy/image/Digital-Marketing-3.png"
               alt=""
-              className="img-fluid"
+              className="img-fluid-abt"
             />
           </div>
         </div>

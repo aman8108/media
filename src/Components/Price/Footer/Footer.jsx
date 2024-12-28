@@ -5,7 +5,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
-import imgg from "../../Assets/fLogo.jpg"
+import imgg from "../../Assets/fnlogo.png"
 
 
 
@@ -14,12 +14,12 @@ function Footer() {
   return (
     <div>
       <footer>
-  <div className="section pb-0 bg-accent">
+  <div className="section pb-0 bg-accent-footer">
     <div className="r-container">
       <div className="border-bottom">
         <div className="row row-cols-lg-2 row-cols-1">
           <div className="col col-lg-4 mb-3">
-            <div className="d-flex flex-column gap-3">
+            <div className="d-flex align-items-center flex-column gap-3">
               <img
                 src={imgg}
                 alt=""
@@ -50,7 +50,7 @@ function Footer() {
           <div className="col col-lg-8 mb-3">
             <div className="row row-cols-lg-3 row-cols-1">
               <div className="col mb-3">
-                <div className="d-flex flex-column gap-3">
+                <div className="d-flex flex-column align-items-center gap-3">
                   <div className="pb-2 w-max-content pe-3">
                     <h4 className="fw-semibold">Quick Links</h4>
                   </div>
@@ -91,7 +91,7 @@ function Footer() {
                 </div>
               </div>
               <div className="col mb-3">
-                <div className="d-flex flex-column gap-3">
+                <div className="d-flex flex-column align-items-center gap-3">
                   <div className="pb-2 w-max-content pe-3">
                     <h4 className="fw-semibold">Services</h4>
                   </div>
@@ -140,12 +140,12 @@ function Footer() {
                 </div>
               </div>
               <div className="col mb-3">
-                <div className="d-flex flex-column gap-3">
+                <div className="d-flex flex-column align-items-center gap-3">
                   <div className="pb-2 w-max-content pe-3">
                     <h4 className="fw-semibold">Get In Touch</h4>
                   </div>
                   <ul className="list gap-3">
-                    <li>
+                    <li className="link">
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-location-dot"><FaLocationDot /></i>
@@ -153,7 +153,7 @@ function Footer() {
                         KLLG st, No.99, Pku City, ID 28289
                       </span>
                     </li>
-                    <li>
+                    <li className="link">
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-phone"><IoMdCall /></i>
@@ -161,7 +161,7 @@ function Footer() {
                         0761-8523-398
                       </span>
                     </li>
-                    <li>
+                    <li className="link">
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-envelope"><BiLogoGmail /> </i>
@@ -184,11 +184,11 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="d-flex flex-xl-row flex-column gap-3 justify-content-between py-3">
-        <span className="text-center fs-6">
+      <div style={{"justify-self": "center"}} className="d-flex flex-xl-row flex-column gap-3 justify-content-between py-3">
+        <span className="text-center link fs-6">
           Copyright © 2024 Rometheme. All Rights Reserved.
         </span>
-        <a href="" className="text-center text-color fs-6">
+        <a href="" className="text-center text-color link fs-6">
           Privacy &amp; Cookie Policy
         </a>
       </div>
