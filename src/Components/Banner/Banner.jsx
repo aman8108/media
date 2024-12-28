@@ -35,6 +35,7 @@ function Banner() {
       autoStart: true,
       loop: true,
       deleteSpeed: 50,
+      pauseFor:60000
     }}
     ></Typewriter></h1>
           <h2 className="fw-semibold pl-1">Ignite Your Online Performance</h2>
