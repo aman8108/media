@@ -10,6 +10,9 @@ import ContactPage from './Page/ContactPage';
 import Whatsappiconwhatsappicin from './Components/whatsapp/whatsappicin';
 import DetailsPage from './Page/DetailsPage';
 import ProjectMusic from './Page/ProjectMusic';
+import BrandDetailP from './Page/BrandDetailP';
+import Gmbp from './Page/Gmbp';
+import Memep from './Page/Memep';
 
 
 
@@ -28,6 +31,9 @@ function App() {
          <Route path='/contact' element={<ContactPage/>} />
          <Route path='/detai' element={<DetailsPage/>} />
          <Route path='/music' element={<ProjectMusic/>} />
+         <Route path='/brandbuilding' element={<BrandDetailP/>} />
+         <Route path='/gmb' element={<Gmbp/>} />
+         <Route path='/meme' element={<Memep/>} />
          
          
          </Routes>

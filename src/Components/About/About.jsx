@@ -15,16 +15,14 @@ function About() {
             Join Our Journey of Digital Discovery
           </h3>
           <p className="text-color-2">
-            Our data-driven approach ensures that every decision is backed by
-            insights, every campaign is optimized for maximum impact, and every
-            result is measurable. We bring unparalleled expertise to every
-            project we undertake.
+          We help companies achieve long-term growth by becoming their personal marketing department not as a typical “vendor” In a world where success is ushered by digital footprints, we serve as your stewards on your journey to online greatness.At Fauntennetwork, we've developed an exclusive team of certified digital experts wit deep expertise in conversion optimization (the science of converting visitors into customer from your website)
+          We are an experienced influencer marketing agency based in India, dedicated to connecting brands with the right influencers for impactful campaigns.
           </p>
-          <div className="d-flex flex-row gap-3">
+          {/* <div className="d-flex flex-row gap-3">
             <a href="about.html" className="btn btn-accent px-5 py-3">
               Read More
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="d-flex flex-row py-3 justify-content-between justify-content-xl-between justify-content-md-around text-center">
           <div className="pb-3">

@@ -6,6 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
 import imgg from "../../Assets/fLogo.jpg"
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,9 +28,7 @@ function Footer() {
                 width={100}
               />
               <p className="text-color-2">
-                Lorem ipsum dolor sit amet consectetur adipiscing mauris
-                volutpat ante ut sagittis efficitur arcu diam faucibus eli quis
-                rhoncus enim augue ut orci donec.
+              We help companies achieve long-term growth by becoming their personal marketing department not as a typical “vendor” In a world where success is ushered by digital footprints.
               </p>
               <div className="social-container mb-lg-0 mb-3">
                 <a href="https://www.facebook.com" className="social-item">
@@ -56,28 +55,28 @@ function Footer() {
                   </div>
                   <ul className="list gap-2">
                     <li>
-                      <a
-                        href="index.html"
+                      <Link
+                        to="/"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
                         Homepage
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="about.html"
+                      <Link
+                        to="/aboutpage"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="services.html"
+                      <Link
+                        to="/service"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
                         Our Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a
@@ -97,30 +96,30 @@ function Footer() {
                   </div>
                   <ul className="list gap-2">
                     <li>
-                      <a
-                        href=""
+                      <Link
+                        to="/ott"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
-                        Digital Strategy Development
-                      </a>
+                        Ott Platform
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href=""
+                      <Link
+                        to="/brand"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
-                        Social Media Management
-                      </a>
+                        Brand
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href=""
+                      <Link
+                        to="/music"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
-                        Search Engine Optimization
-                      </a>
+                        Song Compaign
+                      </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href=""
                         className="link d-flex flex-row gap-3 align-items-center"
@@ -135,7 +134,7 @@ function Footer() {
                       >
                         Pay-Per-Click Advertising
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

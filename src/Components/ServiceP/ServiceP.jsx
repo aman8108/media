@@ -27,7 +27,7 @@ function ServiceP() {
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <a href="index.html">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             Sevices
@@ -61,14 +61,14 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Brand building</a>
+                  <Link to="/brandbuilding">Brand building</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Unlock the true potential of your brand with Fox Media's comprehensive brand-building services.
                 </p>
                 <a href="#" className="learn">
-                  <i to className="fa-solid fa-arrow-right"><Link to="detai"><FaArrowAltCircleRight /></Link></i>
+                  <i to className="fa-solid fa-arrow-right"><Link to="/brandbuilding"><FaArrowAltCircleRight /></Link></i>
                 </a>
               </div>
             </div>
@@ -81,15 +81,15 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">GMB optimisation</a>
+                  <Link to="/gmb">GMB optimisation</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Put your business on the digital map with Fox Media's Google My Business (GMB) optimization.
                 </p>
-                <a href="#" className="learn">
+                <Link to="/gmb" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -100,15 +100,15 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Meme Marketing</a>
+                  <Link tof="/meme">Meme Marketing</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Step into the lighter side of the internet with Fox Media's meme marketing services.
                 </p>
-                <a href="#" className="learn">
+                <Link to="/meme" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

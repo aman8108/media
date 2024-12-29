@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { IoLocationOutline } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { IoCallOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 function Contactus() {
@@ -55,7 +56,7 @@ function Contactus() {
             <h1 className="font-1 m-0 text-white fw-semibold">Contact Us</h1>
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li className="breadcrumb-item"><Link to="/">Home</Link></li>
                 <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
               </ol>
             </nav>
