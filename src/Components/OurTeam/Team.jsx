@@ -10,7 +10,7 @@ function Team() {
       style={{ maxWidth: 678 }}
     >
       <div className="linear-gradient">
-        <span className="text-white">Our Team</span>
+        <span className="">Our Team</span>
       </div>
       <h3 className="fw-semibold">Meet Our&nbsp;Expert&nbsp;Team Members</h3>
       <p className="text-color-2">

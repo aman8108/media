@@ -11,7 +11,7 @@ function Service() {
         style={{ maxWidth: 567 }}
       >
         <div className="linear-gradient">
-          <span className="text-white devidd">Our Services</span>
+          <span className="devidd">Our Services</span>
         </div>
         <h3 className="fw-semibold devidd">Safeguarding Your Brand's Online Image</h3>
         <p className="text-color-2 devidd">
