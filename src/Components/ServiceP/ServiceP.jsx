@@ -119,15 +119,15 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Meta ADS</a>
+                  <Link to="/metaAds">Meta ADS</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Ready to explore the forefront of advertising with Meta Ads (or Facebook Ads)..
                 </p>
-                <a href="#" className="learn">
+                <Link to="/metaAds" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -138,16 +138,16 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Influencer
-                  Marketing</a>
+                  <Link to="/Influencer">Influencer
+                  Marketing</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Dive into the sphere of industry thought leaders and social media stars with Fox Media's influencer marketing services.
                 </p>
-                <a href="#" className="learn">
+                <Link to="/Influencer" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -158,15 +158,15 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Google Ads</a>
+                  <Link to="GoodleAds">Google As</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Seeking targeted traffic, increased brand visibility, and amplified conversions for your business
                 </p>
-                <a href="#" className="learn">
+                <Link to="/GoodleAds" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -177,15 +177,15 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Graphics design</a>
+                  <Link to="Graphicsdesign">Graphics design</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                   At Faunten Media, we comprehend that exceptional design transcends mere aesthetics.
                 </p>
-                <a href="#" className="learn">
+                <Link to="/Graphicsdesign" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -196,16 +196,35 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <a href="#">Outdoor
-                  marketing</a>
+                  <Link to="/OutDoorMarketing">Outdoor
+                  marketing</Link>
                 </h4>
                 <div className="space16" />
                 <p>
                 Effective marketing extends beyond digital platforms. Outdoor Marketing serves an imperative role ..
                 </p>
-                <a href="#" className="learn">
+                <Link to="/OutDoorMarketing" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
-                </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="service3-box">
+              <div className="image">
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img2.png" alt="" />
+              </div>
+              <div className="heading3">
+                <h4>
+                  <Link to="/PerformanceMarketing">Performance Marketing</Link>
+                </h4>
+                <div className="space16" />
+                <p>
+                Effective marketing extends beyond digital platforms. Outdoor Marketing serves an imperative role ..
+                </p>
+                <Link to ="/PerformanceMarketing" className="learn">
+                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                </Link>
               </div>
             </div>
           </div>
@@ -222,7 +241,7 @@ function ServiceP() {
     
     {/*=====FOOTER AREA END=======*/}
     {/*=== js === */}
-    <Service/>
+    {/* <Service/> */}
     <Footer/>
   </>
   )

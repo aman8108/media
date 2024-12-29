@@ -33,7 +33,7 @@ function Testimonial() {
             <hr />
             <div className="d-flex flex-row gap-5">
               <div className="d-flex flex-column gap-1">
-                <h3 className="fw-semibold">100%</h3>
+                <h3 className="fw-semibold">98%</h3>
                 <div className="flex-row">
                   <i
                     className="fa-solid fa-xs fa-star"
@@ -59,7 +59,7 @@ function Testimonial() {
                 <h4 className="text-color-2">Satisfied Clients</h4>
               </div>
               <div className="d-flex flex-column gap-1">
-                <h3 className="fw-semibold">4.9</h3>
+                <h3 className="fw-semibold">4.8</h3>
                 <div className="flex-row">
                   <i
                     className="fa-solid fa-xs fa-star"

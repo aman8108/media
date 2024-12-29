@@ -2085,8 +2085,10 @@ a {
     margin-bottom: 10px;
 }
 section, section .titleSection {
+  margin-bottom: 40px;
     align-items: center;
     display: flex
+    
 ;
     flex-direction: column;
     justify-content: center;
@@ -2329,6 +2331,19 @@ section, section .titleSection {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);  /* Adding black shadow */
     
   }
+.bannerr {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://t4.ftcdn.net/jpg/05/16/79/57/360_F_516795722_dRBFwgdIjgEtYJcwq7xlPbElBgvD3Oqx.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);  /* Adding black shadow */
+    
+  }
   
   /* Making text responsive */
   .banner h1 {
@@ -2369,7 +2384,7 @@ section, section .titleSection {
 
 
   .bannerr {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://t4.ftcdn.net/jpg/05/16/79/57/360_F_516795722_dRBFwgdIjgEtYJcwq7xlPbElBgvD3Oqx.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://payu.in/blog/wp-content/uploads/2017/03/Brand-building-process-.gif') no-repeat center center/cover;
     text-align: center;
     padding: 100px 20px;
     color: white;
@@ -5566,4 +5581,33 @@ h3 a{
 .img-fluid45{
     width: 40px;
     margin-bottom: 10px;
+}
+
+/* .gg{
+  color: #000;
+} */
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9; /* Optional: background color */
+  padding: 10px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  max-width: 100px; /* Adjust logo size */
+  height: auto;
+  margin: 0 10px; /* Add spacing between logos */
+}
+
+@media (max-width: 768px) {
+  .company-logo {
+    max-width: 70px;
+  }
 }

@@ -154,14 +154,14 @@ function Footer() {
                         KLLG st, No.99, Pku City, ID 28289
                       </span>
                     </li>
-                    <li className="link">
+                    {/* <li className="link">
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-phone"><IoMdCall /></i>
                         </div>
                         0761-8523-398
                       </span>
-                    </li>
+                    </li> */}
                     <li className="link">
                       <span className="d-flex flex-row align-items-center gap-3">
                         <div className="contact-item">

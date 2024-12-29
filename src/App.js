@@ -13,6 +13,12 @@ import ProjectMusic from './Page/ProjectMusic';
 import BrandDetailP from './Page/BrandDetailP';
 import Gmbp from './Page/Gmbp';
 import Memep from './Page/Memep';
+import MetaAdsPage from './Page/MetaAdsPage';
+import InfluencerPage from './Page/InfluencerPage';
+import GoodleAds from './Components/GoodleAds/GoodleAds';
+import Graphicsdesignpage from './Page/Graphicsdesignpage';
+import OutdoorPage from './Page/OutdoorPage';
+import PerformanceMarketingPage from './Page/PerformanceMarketingPage';
 
 
 
@@ -34,6 +40,12 @@ function App() {
          <Route path='/brandbuilding' element={<BrandDetailP/>} />
          <Route path='/gmb' element={<Gmbp/>} />
          <Route path='/meme' element={<Memep/>} />
+         <Route path='/metaAds' element={<MetaAdsPage/>} />
+         <Route path='/Influencer' element={<InfluencerPage/>} />
+         <Route path='/GoodleAds' element={<GoodleAds/>} />
+         <Route path='/Graphicsdesign' element={<Graphicsdesignpage/>} />
+         <Route path='/OutDoorMarketing' element={<OutdoorPage/>} />
+         <Route path='/PerformanceMarketing' element={<PerformanceMarketingPage/>} />
          
          
          </Routes>

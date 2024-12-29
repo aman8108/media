@@ -5,6 +5,10 @@ import Footer from '../Price/Footer/Footer'
 function BrandBuildingDetail() {
   return (
     <>
+    <div className="bannerr">
+      <h1 className='gg'>OTT PLATFORM</h1>
+      <p className='gg'>Endless entertainment" resonates with diverse audiences</p>
+    </div>
       <div className="ditalMarktingSection">
   <section className="pricingBanner">
     <div className="container">

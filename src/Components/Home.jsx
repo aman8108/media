@@ -25,7 +25,7 @@ function Home() {
       <Team/>
       <Counter/>
       <Testimonial/>
-      <Price/>
+      {/* <Price/> */}
       <Client/>
       <Project/>
       <Footer/>

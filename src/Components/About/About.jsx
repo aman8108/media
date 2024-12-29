@@ -26,11 +26,11 @@ function About() {
         </div>
         <div className="d-flex flex-row py-3 justify-content-between justify-content-xl-between justify-content-md-around text-center">
           <div className="pb-3">
-            <h2 className="font-1 fw-bold outline">10+</h2>
+            <h2 className="font-1 fw-bold outline">7+</h2>
             <span>Years Experience</span>
           </div>
           <div className="pb-3">
-            <h2 className="font-1 fw-bold outline">200+</h2>
+            <h2 className="font-1 fw-bold outline">500+</h2>
             <span>Statisfied Customers</span>
           </div>
           <div className="pb-3">

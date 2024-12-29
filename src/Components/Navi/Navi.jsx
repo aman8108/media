@@ -95,7 +95,7 @@ function Navi() {
                 to="ott"
                 onClick={() => handleNavLinkClick("recent")}
               >
-                OTT PLATFORM
+                Ott Platform
               </Link>
             </li>
             <li>

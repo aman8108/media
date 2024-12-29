@@ -6,7 +6,21 @@ import Footer from '../Price/Footer/Footer'
 function Gmb() {
   return (
     <>
-      <div className="ditalMarktingSection">
+     <div className="bannerr">
+      <h1>GMB optimisation</h1>
+      <p>Endless entertainment" resonates with diverse audiences</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+      <div className="ditalMarktingSection mt-5">
   <section className="pricingBanner">
     <div className="container">
       <div className="row">
