@@ -8,9 +8,7 @@ import { BiLogoGmail } from "react-icons/bi";
 <<<<<<< HEAD
 import imgg from "../../Assets/fLogo.jpg"
 import { Link } from 'react-router-dom';
-=======
-import imgg from "../../Assets/fnlogo.png"
->>>>>>> 1ac8b3636f2de0c6579f8dfec9a4ce6dcd63fa56
+
 
 
 
