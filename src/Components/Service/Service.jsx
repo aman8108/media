@@ -71,14 +71,14 @@ function Service() {
           </a>
         </div>
       </div>
-      {/* <div>
+      <div>
         <a
           href="services.html"
           className="btn btn-accent px-5 py-3 rounded-pill"
         >
           All Services
         </a>
-      </div> */}
+      </div>
     </div>
   </div>
 </div>

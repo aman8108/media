@@ -5,8 +5,8 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
-<<<<<<< HEAD
-import imgg from "../../Assets/fLogo.jpg"
+
+import imgg from "../../Assets/fnlogo.png"
 import { Link } from 'react-router-dom';
 
 
