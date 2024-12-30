@@ -3,6 +3,8 @@ import { IoLocationOutline } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { IoCallOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import emailjs from "@emailjs/browser";
+
 
 
 function Contactus() {
@@ -14,6 +16,36 @@ function Contactus() {
     message: '',
   });
   const [formStatus, setFormStatus] = useState(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_dfqfzmz", // Replace with your service ID
+        "template_xcvkaug", // Replace with your template ID
+        {
+          to_name:'Faunten Network',
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          subject:formData.subject,
+          reply_to:'ppsangle05@gmail.com',
+          from_number:formData.phone
+        },
+        "4x7dbpbGkb0FEq9UM" // Replace with your public key from EmailJS
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Email sent successfully!");
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          alert("Failed to send email.");
+        }
+      );
+  };
 
   // Handle form data change
   const handleChange = (e) => {
@@ -32,7 +64,7 @@ function Contactus() {
       setFormStatus({ type: 'error', message: 'All fields are required!' });
       return;
     }
-
+sendEmail(e);
     // Simulate form submission success
     setFormStatus({ type: 'success', message: 'Your message was successfully sent.' });
 

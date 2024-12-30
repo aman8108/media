@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 
 
@@ -9,9 +10,9 @@ function whatsappicin() {
     <>
       <div className="icon-bar1">
       
-  <a target="_blank" href="https://wa.me/+917028725777?text=">
+      <a href="mailto:recipient@example.com?subject=Hello&body=How%20are%20you?" class="mail-icon">
   
-    <i className="fa fa-whatsapp callus" aria-hidden="true" ><CiMail /></i>
+    <i className="fa-regular fa-envelope" aria-hidden="true" ><FaRegEnvelope /></i>
     
   </a>
 </div>

@@ -2445,7 +2445,7 @@ section, section .titleSection {
     text-align: center !important;
     width: 60px !important;
     z-index: 1000;
-    background-color: #414260;
+    background-color: #cf0f0f;
 }
 @media (max-width: 786px){
     .icon-bar1{
@@ -5617,5 +5617,16 @@ svg {
     color: #fff;
     z-index: 888;
 }
+
 }
+
+.mobile-nav-head h2,h6{
+  display: none;
+}
+@media (max-width: 786px){
+  .mobile-nav-head h2,h6{
+    display: block;
+  }
+}
+
 
