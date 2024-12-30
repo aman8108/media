@@ -2445,7 +2445,7 @@ section, section .titleSection {
     text-align: center !important;
     width: 60px !important;
     z-index: 1000;
-    background-color: #17a429;
+    background-color: #414260;
 }
 @media (max-width: 786px){
     .icon-bar1{
@@ -5587,3 +5587,11 @@ h3 a{
   color: #000;
 } */
 
+.marq img{
+  width: 200px;
+}
+
+svg {
+  vertical-align: middle;
+  margin-top: 5px;
+}

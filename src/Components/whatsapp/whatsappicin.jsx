@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaWhatsapp } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 
 function whatsappicin() {
@@ -11,7 +11,7 @@ function whatsappicin() {
       
   <a target="_blank" href="https://wa.me/+917028725777?text=">
   
-    <i className="fa fa-whatsapp callus" aria-hidden="true" ><FaWhatsapp /></i>
+    <i className="fa fa-whatsapp callus" aria-hidden="true" ><CiMail /></i>
     
   </a>
 </div>
