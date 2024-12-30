@@ -203,45 +203,42 @@ function Testimonial() {
                 aria-live="assertive"
                 aria-atomic="true"
               />
-                 <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-      <SwiperSlide>
-      <span className="fst-italic" style={{ fontSize: 24 }}>
-                      {" "}
-                      “Working with Faunten Network was an absolute pleasure. Their team
-                      transformed our outdated website into a more modern and
-                      user-friendly platform. The results speak "
-                    </span>
-      </SwiperSlide>
-      <SwiperSlide>
-      <span className="fst-italic" style={{ fontSize: 24 }}>
-                      {" "}
-                      “Working with Faunten Network was an absolute pleasure. Their team
-                      transformed our outdated website into a more modern and
-                      user-friendly platform. The results speak "
-                    </span>
-      </SwiperSlide>
-      <SwiperSlide>
-      <span className="fst-italic" style={{ fontSize: 24 }}>
-                      {" "}
-                      “Working with Faunten Network was an absolute pleasure. Their team
-                      transformed our outdated website into a more modern and
-                      user-friendly platform. The results speak "
-                    </span>
-      </SwiperSlide>
-      </Swiper>
+                <Swiper
+  spaceBetween={30}
+  centeredSlides={true}
+  autoplay={{
+    delay: 2500,
+    disableOnInteraction: false,
+  }}
+  pagination={{
+    clickable: true,
+  }}
+  modules={[Autoplay, Pagination]} // Removed Navigation module
+  className="mySwiper"
+>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “Working with Faunten Network was an absolute pleasure. Their team
+      transformed our outdated website into a more modern and
+      user-friendly platform. The results speak.”
+    </span>
+  </SwiperSlide>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “Working with Faunten Network was an absolute pleasure. Their team
+      transformed our outdated website into a more modern and
+      user-friendly platform. The results speak.”
+    </span>
+  </SwiperSlide>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “Working with Faunten Network was an absolute pleasure. Their team
+      transformed our outdated website into a more modern and
+      user-friendly platform. The results speak.”
+    </span>
+  </SwiperSlide>
+</Swiper>
+
             </div>
           </div>
         </div>
