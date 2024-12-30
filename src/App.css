@@ -5617,5 +5617,16 @@ svg {
     color: #fff;
     z-index: 888;
 }
+
 }
+
+.mobile-nav-head h2,h6{
+  display: none;
+}
+@media (max-width: 786px){
+  .mobile-nav-head h2,h6{
+    display: block;
+  }
+}
+
 

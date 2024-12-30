@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
          <Navi/>
-         {/* <Whatsappiconwhatsappicin/> */}
+         <Whatsappiconwhatsappicin/>
          <Routes >
          <Route path='/' element = {<Home/>} />
          <Route path='/aboutpage' element= {<Aboutppp/>}/>
