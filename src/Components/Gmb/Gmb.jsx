@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import { Link } from 'react-router-dom'
 import Footer from '../Price/Footer/Footer'
 
 
 function Gmb() {
+    useEffect(() => {
+      // Scroll to the top of the page when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
      <div className="bannerr">

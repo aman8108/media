@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Price/Footer/Footer'
 import { Link } from 'react-router-dom'
 
 export default function GoodleAds() {
+    useEffect(() => {
+      // Scroll to the top of the page when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
         <div className="bannerr">

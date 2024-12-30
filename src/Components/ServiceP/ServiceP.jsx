@@ -61,7 +61,7 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <Link to="/brandbuilding">Brand building</Link>
+                  <Link to="/brandbuilding">Brand Building</Link>
                 </h4>
                 <div className="space16" />
                 <p>
@@ -81,7 +81,7 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <Link to="/gmb">GMB optimisation</Link>
+                  <Link to="/gmb">GMB Optimisation</Link>
                 </h4>
                 <div className="space16" />
                 <p>
@@ -119,7 +119,7 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <Link to="/metaAds">Meta ADS</Link>
+                  <Link to="/metaAds">Meta Ads</Link>
                 </h4>
                 <div className="space16" />
                 <p>
@@ -158,7 +158,7 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <Link to="GoodleAds">Google As</Link>
+                  <Link to="GoodleAds">Google Ads</Link>
                 </h4>
                 <div className="space16" />
                 <p>
@@ -177,7 +177,7 @@ function ServiceP() {
               </div>
               <div className="heading3">
                 <h4>
-                  <Link to="Graphicsdesign">Graphics design</Link>
+                  <Link to="/Graphicsdesign">Graphics Design</Link>
                 </h4>
                 <div className="space16" />
                 <p>
@@ -197,7 +197,7 @@ function ServiceP() {
               <div className="heading3">
                 <h4>
                   <Link to="/OutDoorMarketing">Outdoor
-                  marketing</Link>
+                  Marketing</Link>
                 </h4>
                 <div className="space16" />
                 <p>

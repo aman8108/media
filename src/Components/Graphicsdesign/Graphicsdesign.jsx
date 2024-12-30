@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Price/Footer/Footer'
 import { Link } from 'react-router-dom'
 
 function Graphicsdesign() {
+    useEffect(() => {
+      // Scroll to the top of the page when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div>
        <div className="bannerr">
-      <h1>Meta Ads</h1>
-      <p>Endless entertainment" resonates with diverse audiences</p>
+      <h1>Graphics Desigh</h1>
+      <p>Graphic design creates visually impactful and effective messages.</p>
     </div>
     <div className="ditalMarktingSection mt-5">
 <section className="pricingBanner">
