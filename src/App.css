@@ -5587,9 +5587,7 @@ h3 a{
   color: #000;
 } */
 
-.marq img{
-  width: 200px;
-}
+
 
 svg {
   vertical-align: middle;
@@ -5601,3 +5599,15 @@ svg {
 .navbar-brand img {
   max-height: 40px; /* Matches the default navbar height */
 }
+
+.marq img{
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Apply styles for mobile screens */
+  .marq img {
+    width: 123px; /* Specific width for mobile screens */
+  }
+}
+
