@@ -5609,5 +5609,13 @@ svg {
   .marq img {
     width: 123px; /* Specific width for mobile screens */
   }
+
+  .overlay-title {
+    position: absolute;
+    top: 181px;
+    left: 20px;
+    color: #fff;
+    z-index: 888;
+}
 }
 
