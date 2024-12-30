@@ -10,10 +10,10 @@ function Client() {
             <div className="homepage_whyhomelane_container__1f6jA undefined why-dude">
               <div className="whyChooseUs_why-choose-us-container__MK7ng">
                 <div className="whyChooseUs_headingTitle__34rH2">
-                  Why Choose <span className='interial-con'>Us</span>
+                 Our  <span className='interial-con'>Clients</span>
                 </div>
                 <div className="us-p">
-                  <p>Innovative designs. Personal touch. Exceptional results.</p>
+                  <p>Trusted by clients for exceptional service and innovative solutions.</p>
                 </div>
                 <div className="whyChooseUs_slider__vpqwR">
                   <div className="whyChooseUs_slide-icons__3t3Vh">

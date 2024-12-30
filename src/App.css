@@ -1853,7 +1853,7 @@ a {
    }
 
    .interial-con {
-    color: #cd0a28;
+    color: #1e90ff;
     font-family: Poppins, sans-serif;
     font-size: 50px !important;
     margin-left: 13px;
@@ -5594,4 +5594,10 @@ h3 a{
 svg {
   vertical-align: middle;
   margin-top: 5px;
+}
+
+
+
+.navbar-brand img {
+  max-height: 40px; /* Matches the default navbar height */
 }
