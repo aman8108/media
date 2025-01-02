@@ -131,7 +131,7 @@ function Navi() {
                 </ul>
                 <div className="mb-xl-0 mb-3">
                   <Link
-                    to="https://www.instagram.com/aman_singh_21?igsh=MXR1Y3k3MGs5eTh4Nw=="
+                    to="https://www.instagram.com/fauntennetwork.in"
                     className="btn btn-accent px-5 py-3"
                     target="_blank"
                     rel="noopener noreferrer"
