@@ -189,7 +189,7 @@ function Footer() {
       </div>
       <div style={{"justify-self": "center"}} className="d-flex flex-xl-row flex-column gap-3 justify-content-between py-3">
         <span className="text-center link fs-6">
-        Copyright ©2025 All rights reserved | Faunten Network by iThinkSolution.
+        Copyright ©2025 All rights reserved | Faunten Network by <a href="Byondtechs.com">Byondtechs</a>.
         </span>
         <a href="" className="text-center text-color link fs-6">
           Privacy &amp; Cookie Policy
