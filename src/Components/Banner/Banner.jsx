@@ -1,5 +1,6 @@
 import React from 'react'
 import { CiPlay1 } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 import Typewriter from "typewriter-effect";
 
 
@@ -47,9 +48,9 @@ function Banner() {
             and achieve their marketing objectives with precision and impact.
           </p>
           <div className="d-flex flex-row gap-4">
-            <a href="contact.html" className="btn btn-accent-land px-5 py-3">
+            <Link to="/contact" className="btn btn-accent-land px-5 py-3">
               Contact Us
-            </a>
+            </Link>
             {/* <button
               type="button"
               className="request-loader"

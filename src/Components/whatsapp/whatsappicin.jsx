@@ -10,7 +10,7 @@ function whatsappicin() {
     <>
       <div className="icon-bar1">
       
-      <a href="mailto:recipient@example.com?subject=Hello&body=How%20are%20you?" class="mail-icon">
+      <a href="mailto:fauntennetwork@gmail.com?subject=Hello&body=How%20are%20you?" class="mail-icon">
   
     <i className="fa-regular fa-envelope" aria-hidden="true" ><FaRegEnvelope /></i>
     

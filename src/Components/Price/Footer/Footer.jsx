@@ -1,6 +1,8 @@
 import React from 'react'
-import { FaFacebookF } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+
+import { FaTelegram } from "react-icons/fa";
+
 import { SlSocialInstagram } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
@@ -33,15 +35,15 @@ function Footer() {
               We help companies achieve long-term growth by becoming their personal marketing department not as a typical “vendor” In a world where success is ushered by digital footprints.
               </p>
               <div className="social-container mb-lg-0 mb-3">
-                <a href="https://www.facebook.com" className="social-item">
-                  <i className="fa-brands fa-xs fa-facebook-f"><FaFacebookF /></i>
+                <a href="https://www.linkedin.com/in/faunten-network-82785a312" className="social-item">
+                  <i className="fa-brands fa-xs fa-facebook-f"><FaLinkedinIn /></i>
                 </a>
-                <a href="https://www.twitter.com" className="social-item">
-                  <i className="fa-brands fa-xs fa-twitter"><FaXTwitter /></i>
+                <a href="https://t.me/fauntennetwork1" className="social-item">
+                  <i className="fa-brands fa-xs fa-twitter"><FaTelegram /></i>
                 </a>
-                <a href="https://www.instagram.com" className="social-item">
+                <Link to="https://www.instagram.com/fauntennetwork.in" className="social-item">
                   <i className="fa-brands fa-xs fa-instagram"><SlSocialInstagram /></i>
-                </a>
+                </Link>
                 {/* <a href="https://www.youtube.com" className="social-item">
                   <i className="fa-brands fa-xs fa-youtube" />
                 </a> */}
@@ -102,7 +104,7 @@ function Footer() {
                         to="/ott"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
-                        Ott Platform
+                        OTT Platform
                       </Link>
                     </li>
                     <li>
@@ -167,7 +169,7 @@ function Footer() {
                         <div className="contact-item">
                           <i className="fa-solid fa-2xs fa-envelope"><BiLogoGmail /> </i>
                         </div>
-                        hello@domainsite.com
+                        fauntennetwork@gmail.com
                       </span>
                     </li>
                     {/* <li>
@@ -187,7 +189,7 @@ function Footer() {
       </div>
       <div style={{"justify-self": "center"}} className="d-flex flex-xl-row flex-column gap-3 justify-content-between py-3">
         <span className="text-center link fs-6">
-          Copyright © 2024 Rometheme. All Rights Reserved.
+        Copyright ©2025 All rights reserved | Faunten Network by iThinkSolution.
         </span>
         <a href="" className="text-center text-color link fs-6">
           Privacy &amp; Cookie Policy

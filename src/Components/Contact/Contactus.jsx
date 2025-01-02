@@ -30,7 +30,7 @@ function Contactus() {
           from_email: formData.email,
           message: formData.message,
           subject:formData.subject,
-          reply_to:'ppsangle05@gmail.com',
+          reply_to:'fauntennetwork@gmail.com',
           from_number:formData.phone
         },
         "4x7dbpbGkb0FEq9UM" // Replace with your public key from EmailJS
@@ -139,7 +139,7 @@ sendEmail(e);
                           <div className="contact-item">
                             <i className="fa-solid fa-2xs fa-envelope"><CgMail /></i>
                           </div>
-                          hello@domainsite.com
+                          fauntennetwork@gmail.com
                         </span>
                       </div>
                       {/* <div className="col mb-3">

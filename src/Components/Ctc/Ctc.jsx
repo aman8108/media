@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Ctc() {
   return (
@@ -23,9 +24,9 @@ function Ctc() {
         kickstart your journey to digital success today!
       </p>
       <div>
-        <a href="contact.html" className="btn btn-accent px-5 py-3">
+        <Link to="/contact" className="btn btn-accent px-5 py-3">
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   </div>

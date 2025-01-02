@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdVerified } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Project() {
   return (
@@ -78,9 +79,9 @@ function Project() {
             </p>
           </div>
           <div>
-            <a href="project.html" className="btn btn-accent px-5 py-3">
+            <Link to="/service" className="btn btn-accent px-5 py-3">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
