@@ -218,9 +218,7 @@ function Testimonial() {
 >
   <SwiperSlide>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Working with Faunten Network was an absolute pleasure. Their team
-      transformed our outdated website into a more modern and
-      user-friendly platform. The results speak.”
+      “Faunten Marketing has been a game-changer for our business. Their expertise in digital marketing has boosted our online presence, driving more traffic and conversions. Their team delivers creative, tailored strategies that truly work. We highly recommend them for anyone looking to elevate their digital marketing efforts.”
     </span>
   </SwiperSlide>
   <SwiperSlide>
@@ -232,9 +230,22 @@ function Testimonial() {
   </SwiperSlide>
   <SwiperSlide>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Working with Faunten Network was an absolute pleasure. Their team
-      transformed our outdated website into a more modern and
-      user-friendly platform. The results speak.”
+      “Working with Faunten Marketing has been a fantastic experience. Their team’s expertise in digital marketing has helped us grow our brand online and reach more customers. Their tailored approach and commitment to success have made a real difference. We highly recommend them for anyone looking to enhance their digital presence.”
+    </span>
+  </SwiperSlide>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “Faunten Marketing has exceeded our expectations in every way. Their innovative digital marketing strategies have significantly enhanced our online visibility and engagement. The team is responsive, creative, and dedicated to delivering results. If you're looking to grow your brand in the digital space, Faunten Marketing is the right choice.”
+    </span>
+  </SwiperSlide>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “Working with this digital marketing team has been a great experience. Their innovative strategies have significantly boosted our online visibility and engagement. The team is professional, responsive, and results-driven, always delivering creative solutions to meet our needs. If you're looking to grow your digital presence, I highly recommend their services.”
+    </span>
+  </SwiperSlide>
+  <SwiperSlide>
+    <span className="fst-italic" style={{ fontSize: 24 }}>
+      “WThe digital marketing services provided have truly transformed our online presence. Their team’s expertise, creativity, and attention to detail have driven measurable results for our business. We’ve seen increased engagement and growth, and I couldn’t be more pleased with the outcome. Highly recommend their services to anyone looking to boost their digital strategy.”
     </span>
   </SwiperSlide>
 </Swiper>
