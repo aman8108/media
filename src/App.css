@@ -5629,4 +5629,14 @@ svg {
   }
 }
 
+.reviewer-image {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Ensure it's a square */
+  border-radius: 100%; /* Makes it circular */
+  margin: 0 auto 10px; /* Centers image and adds spacing */
+  display: block;
+  border: 2px solid #ccc; /* Optional: Add a border */
+}
+
+
 
