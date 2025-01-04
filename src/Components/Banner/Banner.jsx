@@ -144,7 +144,7 @@ function Banner() {
           
 
 
-  <div style={{ fontSize: "1.5rem", fontFamily: "monospace", textAlign: "center" }}>
+  <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
       <Typewriter
         options={{
           strings: [
