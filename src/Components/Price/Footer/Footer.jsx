@@ -82,14 +82,14 @@ function Footer() {
                         Our Services
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="team.html"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
                         Our Team
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

@@ -5,11 +5,17 @@ import 'aos/dist/aos.css';
 
 function Service() {
   useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration
-      easing: 'ease-in-out', // Easing function
-      once: true, // Animate only once
-    });
+    // AOS.init({
+    //   duration: 1000, // Animation duration
+    //   easing: 'ease-in-out', // Easing function
+    //   once: true, // Animate only once
+    // });
+    
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+   // Scroll to top when component mounts
   }, []);
 
   return (

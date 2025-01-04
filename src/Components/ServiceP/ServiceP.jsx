@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect} from 'react'
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import Service from '../Service/Service';
 import Footer from '../Price/Footer/Footer';
@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 
 
 function ServiceP() {
+  useEffect(() => {
+      window.scrollTo(0, 0); 
+     // Scroll to top when component mounts
+    }, []);
+  
   return (
     <>
 
@@ -53,7 +58,7 @@ function ServiceP() {
     {/*=====SERVICE AREA START=======*/}
     <div className="service3 service-page sp">
       <div className="container">
-        <div className="row">
+        <div className="row mb-4">
           <div className="col-lg-4 col-md-6">
             <div className="service3-box">
               <div className="image">

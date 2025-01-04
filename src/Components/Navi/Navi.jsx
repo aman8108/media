@@ -13,6 +13,7 @@ function Navi() {
 
     // Close the navbar after clicking a link
     const navbarCollapse = document.getElementById("navbarNav");
+    debugger;
     if (navbarCollapse.classList.contains("show")) {
       navbarCollapse.classList.remove("show");
     }

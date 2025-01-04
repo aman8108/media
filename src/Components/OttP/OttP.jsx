@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 
 function OttP() {
+
+   useEffect(() => {
+      window.scrollTo(0, 0); 
+     // Scroll to top when component mounts
+    }, []);
+  
   return (
     <>
      <div className="banner">

@@ -124,14 +124,14 @@ sendEmail(e);
                           KLLG st, No.99, Pku City, ID 28289
                         </span>
                       </div>
-                      <div className="col mb-3">
+                      {/* <div className="col mb-3">
                         <span className="d-flex flex-row gap-3">
                           <div className="contact-item">
                             <i className="fa-solid fa-2xs fa-phone"><IoCallOutline /></i>
                           </div>
                           0761-8523-398
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="row row-cols-xl-2 row-cols-1">
                       <div className="col mb-3">
@@ -266,13 +266,16 @@ sendEmail(e);
       </div>
 
       <div className="section p-0">
-        <iframe
-          loading="lazy"
-          className="maps overflow-hidden"
-          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=14&output=embed&iwloc=near"
-          title="London Eye, London, United Kingdom"
-          aria-label="London Eye, London, United Kingdom"
-        />
+      <iframe
+      className="maps overflow-hidden"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227822.60372065083!2d80.77769869383532!3d26.848596481439493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1735972512649!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
       </div>
     </main>
     

@@ -2142,6 +2142,7 @@ section, section .titleSection {
           left: 50%;
           bottom: -24px;
           transition: all .4s;
+          margin-bottom: 9px !important;
         }
       }
   
@@ -2170,6 +2171,7 @@ section, section .titleSection {
         text-align: center;
         position: relative;
         transition: all .4s;
+        height:400px;
     
         .heading3 {
           margin-top: -50px;
@@ -2690,7 +2692,7 @@ section, section .titleSection {
     line-height: 90px;
     font-weight: 700;
     text-transform: uppercase;
-    opacity: .07;
+    opacity: .5;
 }
 
 h3 a{
@@ -5640,3 +5642,14 @@ svg {
 
 
 
+.whycho .container{
+  min-width: 100%;
+  padding:0;
+}
+.learn a{
+  font-size: 20px;
+  color: #fff;
+}
+.learn svg{
+  margin-bottom: 9px;
+}

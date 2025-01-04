@@ -10,6 +10,11 @@ function About() {
       once: true, // whether animation should happen only once
     });
   }, []);
+   useEffect(() => {
+      window.scrollTo(0, 0); 
+     // Scroll to top when component mounts
+    }, []);
+  
 
   return (
     <>
