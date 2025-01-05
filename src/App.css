@@ -5665,3 +5665,6 @@ display: none !important;
 .swiper{
   padding:20px 0 !important;
 }
+.us-p p{
+  padding:0 20px;
+}
