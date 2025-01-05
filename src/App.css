@@ -630,6 +630,8 @@ a {
     background-color: #414260 ;
     color:#fff;
     /* font-weight: 600; */
+    width: 100%;
+    text-align: center;
 
 }
 .linear-gradient span{
@@ -2122,6 +2124,7 @@ section, section .titleSection {
       text-align: center;
       position: relative;
       transition: all .4s;
+      box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
   
       .heading3 {
         margin-top: -50px;
@@ -5632,10 +5635,10 @@ svg {
 }
 
 .reviewer-image {
-  width: 60px; /* Adjust size as needed */
-  height: 60px; /* Ensure it's a square */
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Ensure it's a square */
   border-radius: 100%; /* Makes it circular */
-  margin: 0 auto 10px; /* Centers image and adds spacing */
+  /* Centers image and adds spacing */
   display: block;
   border: 2px solid #ccc; /* Optional: Add a border */
 }
@@ -5652,4 +5655,13 @@ svg {
 }
 .learn svg{
   margin-bottom: 9px;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -20px !important;
+}
+.swiper.swiperTestimonials > .swiper-wrapper {
+display: none !important;
+}
+.swiper{
+  padding:20px 0 !important;
 }

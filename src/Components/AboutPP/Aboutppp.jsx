@@ -5,6 +5,7 @@ import About from '../About/About'
 import Team from '../OurTeam/Team'
 import Whychoo from '../WhyChoo/Whychoo'
 import Mission from '../Mission/Mission'
+import bannerabout from "../Assets/bannerabout.png"
 
 function Aboutppp() {
   return (
@@ -12,7 +13,7 @@ function Aboutppp() {
       <div
   className="section position-relative"
   style={{
-    backgroundImage: "url(https://prositus.rometheme.pro/html/demos/prodigy/image/image-1920x1280-17.jpg)",
+    backgroundImage: `url(${bannerabout})`,
     height: "70vh"
   }}
 >

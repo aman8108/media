@@ -96,7 +96,7 @@ function Footer() {
               <div className="col mb-3">
                 <div className="d-flex flex-column align-items-center gap-3">
                   <div className="pb-2 w-max-content pe-3">
-                    <h4 className="fw-semibold">Services</h4>
+                    <h4 className="fw-semibold">Recent Work</h4>
                   </div>
                   <ul className="list gap-2">
                     <li>

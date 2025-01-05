@@ -5,11 +5,11 @@ import 'aos/dist/aos.css';
 
 function Service() {
   useEffect(() => {
-    // AOS.init({
-    //   duration: 1000, // Animation duration
-    //   easing: 'ease-in-out', // Easing function
-    //   once: true, // Animate only once
-    // });
+    AOS.init({
+      duration: 500, // Animation duration
+      easing: 'ease-in-out', // Easing function
+      once: false, // Animate only once
+    });
     
   }, []);
 
@@ -28,11 +28,11 @@ function Service() {
               style={{ maxWidth: 567 }}
               data-aos="fade-up" // Add animation
             >
-              <div className="linear-gradient">
+              {/* <div className="linear-gradient">
                 <span className="devidd">Our Services</span>
-              </div>
+              </div> */}
               <h3 className="fw-semibold devidd">
-                Safeguarding Your Brand's Online Image
+               Our Services
               </h3>
               <p className="text-color-2 devidd">
                 We offer a comprehensive suite of digital marketing services

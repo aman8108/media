@@ -9,10 +9,10 @@ function Mission() {
 
   return (
     <>
-      <section className="MissionVission">
+      <section className="MissionVission section">
         <div className="titleSection" data-aos="fade-up">
-          <span>Our Mission, Vision</span>
-          <h2>Our Company Growth</h2>
+          {/* <span>Our Mission, Vision</span> */}
+          <h2>Our Mission & Vision</h2>
         </div>
         <div className="container">
           <div className="row d-flex justify-content-center">
@@ -27,7 +27,7 @@ function Mission() {
                 <div className="cardDiscription">
                   <h4>Our Mission</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                  Our mission is to empower businesses by providing them with the tools, strategies, and insights they need to thrive in a competitive marketplace. 
                   </p>
                 </div>
               </div>
@@ -43,8 +43,7 @@ function Mission() {
                 <div className="cardDiscription">
                   <h4>Our Vision</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
-                  </p>
+                  Our goal is to create value-driven campaigns that resonate with your target audience and deliver tangible results.                  </p>
                 </div>
               </div>
             </div>

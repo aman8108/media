@@ -2,6 +2,10 @@ import React from 'react'
 import { CiStar } from "react-icons/ci";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,6 +22,7 @@ import chotu from "../Assets/chotu.png"
 import yashashvi from "../Assets/yashashvi.png"
 import tiwa from "../Assets/tiwa.jpg"
 import miss from "../Assets/miss.jpg"
+//import { FaFontAwesome } from 'react-icons/fa';
 
 function Testimonial() {
   return (
@@ -136,16 +141,10 @@ function Testimonial() {
                   <div className="d-flex flex-column gap-3 p-5">
                     <div className="d-flex flex-row gap-3 align-items-center">
                       <div className="customer-item">
-                        <img
-                          src="https://prositus.rometheme.pro/html/demos/prodigy/image/BG1.png"
-                          className="img-fluid border-light rounded-circle"
-                          alt=""
-                          width={60}
-                        />
+                      
                       </div>
                       <div className="d-flex flex-column">
-                        <h5>Daniel Won</h5>
-                        <span style={{ fontSize: 12 }}>Support Manager</span>
+                       
                       </div>
                     </div>
                     
@@ -164,8 +163,8 @@ function Testimonial() {
   spaceBetween={30}
   centeredSlides={true}
   autoplay={{
-    delay: 2500,
-    disableOnInteraction: false,
+    delay: 3500,
+    disableOnInteraction: true,
   }}
   pagination={{
     clickable: true,
@@ -179,9 +178,17 @@ function Testimonial() {
       src={amit} // Replace with the actual image URL
       alt="Reviewer"
       className="reviewer-image"
+      width='200px'
     />
+     <h3>Vijay Khanna</h3>
+     <FaStar style={{ color: "#FFD43B" }} />
+     <FaStar style={{ color: "#FFD43B" }} />
+     <FaStar style={{ color: "#FFD43B" }} />
+     <FaStar style={{ color: "#FFD43B" }} />
+     <FaStar style={{ color: "#FFD43B" }} />
+                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Faunten Marketing has been a game-changer for our business. Their expertise in digital marketing has boosted our online presence, driving more traffic and conversions. Their team delivers creative, tailored strategies that truly work. We highly recommend them for anyone looking to elevate their digital marketing efforts.”
+      “Faunten Marketing has been a game-changer for our business. Their expertise in digital marketing has boosted our online presence, driving more traffic and conversions. ”
     </span>
   </div>
 </SwiperSlide>
@@ -193,6 +200,14 @@ function Testimonial() {
       alt="Reviewer"
       className="reviewer-image"
     />
+    <h3>Raj Ahluwalia</h3>
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />        
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+                 <FaStarHalfAlt style={{ color: "#FFD43B" }} />
+
+                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
       “ “Working with Faunten Network was an absolute pleasure. Their team
       transformed our outdated website into a more modern and
@@ -207,9 +222,15 @@ function Testimonial() {
       src={krsna} // Replace with the actual image URL
       alt="Reviewer"
       className="reviewer-image"
-    />
+    /> <h3>Krishna Sharma</h3>
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />        
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Working with Faunten Marketing has been a fantastic experience. Their team’s expertise in digital marketing has helped us grow our brand online and reach more customers. Their tailored approach and commitment to success have made a real difference. We highly recommend them for anyone looking to enhance their digital presence.”
+      “Working with Faunten Marketing has been a fantastic experience. Their team’s expertise in digital marketing has helped us grow our brand online and reach more customers. ”
     </span>
   </div>
 </SwiperSlide>
@@ -221,8 +242,15 @@ function Testimonial() {
       alt="Reviewer"
       className="reviewer-image"
     />
+     <h3>Vikas Jain</h3>
+     <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />        
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+                 <FaStarHalfAlt style={{ color: "#FFD43B" }} />
+                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Faunten Marketing has exceeded our expectations in every way. Their innovative digital marketing strategies have significantly enhanced our online visibility and engagement. The team is responsive, creative, and dedicated to delivering results. If you're looking to grow your brand in the digital space, Faunten Marketing is the right choice.”
+      “Faunten Marketing has exceeded our expectations in every way. Their innovative digital marketing strategies have significantly enhanced our online visibility and engagement. ”
     </span>
   </div>
 </SwiperSlide>
@@ -233,9 +261,15 @@ function Testimonial() {
       src={yashashvi} // Replace with the actual image URL
       alt="Reviewer"
       className="reviewer-image"
-    />
+    /> <h3>Rose Mary</h3>
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />        
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “Working with this digital marketing team has been a great experience. Their innovative strategies have significantly boosted our online visibility and engagement. The team is professional, responsive, and results-driven, always delivering creative solutions to meet our needs. If you're looking to grow your digital presence, I highly recommend their services”
+      “Working with this digital marketing team has been a great experience. Their innovative strategies have significantly boosted our online visibility and engagement.”
     </span>
   </div>
 </SwiperSlide>
@@ -247,8 +281,14 @@ function Testimonial() {
       alt="Reviewer"
       className="reviewer-image"
     />
+    <h3>Anjani Mehta</h3>
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />        
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />
+    <FaStar style={{ color: "#FFD43B" }} />                  <br/>
     <span className="fst-italic" style={{ fontSize: 24 }}>
-      “The digital marketing services provided have truly transformed our online presence. Their team’s expertise, creativity, and attention to detail have driven measurable results for our business. We’ve seen increased engagement and growth, and I couldn’t be more pleased with the outcome. Highly recommend their services to anyone looking to boost their digital strategy.”
+      “The digital marketing services provided have truly transformed our online presence. Their team’s expertise, creativity, and attention to detail have driven measurable results for our business.”
     </span>
   </div>
 </SwiperSlide>

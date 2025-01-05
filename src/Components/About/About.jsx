@@ -5,9 +5,9 @@ import 'aos/dist/aos.css';
 function About() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration in ms
+      duration: 500, // animation duration in ms
       easing: 'ease-in-out', // easing function
-      once: true, // whether animation should happen only once
+      once: false, // whether animation should happen only once
     });
   }, []);
    useEffect(() => {
@@ -26,11 +26,11 @@ function About() {
               data-aos="fade-up" // AOS animation type
             >
               <div className="d-flex flex-column gap-4 pe-lg-3 border-bottom border-1 border-dark pb-5 align-items-center align-items-xl-start">
-                <div className="linear-gradient">
+                {/* <div className="linear-gradient">
                   <span className="fntitle">About Faunten Network</span>
-                </div>
+                </div> */}
                 <h3 className="font-1 fw-bold">
-                  Join Our Journey of Digital Discovery
+                 About Faunten Network
                 </h3>
                 <p className="text-color-2">
                   We help companies achieve long-term growth by becoming their
@@ -44,6 +44,7 @@ function About() {
                   based in India, dedicated to connecting brands with the right
                   influencers for impactful campaigns.
                 </p>
+              
               </div>
               <div
                 className="d-flex flex-row py-3 justify-content-between justify-content-xl-between justify-content-md-around text-center"

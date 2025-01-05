@@ -70,7 +70,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                Unlock the true potential of your brand with Fox Media's comprehensive brand-building services.
+                Unlock the true potential of your brand with Faunten Network's comprehensive brand-building services.
                 </p>
                 <a href="#" className="learn">
                   <i to className="fa-solid fa-arrow-right"><Link to="/brandbuilding"><FaArrowAltCircleRight /></Link></i>
@@ -90,7 +90,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                Put your business on the digital map with Fox Media's Google My Business (GMB) optimization.
+                Put your business on the digital map with Faunten Network's Google My Business (GMB) optimization.
                 </p>
                 <Link to="/gmb" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -109,7 +109,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                Step into the lighter side of the internet with Fox Media's meme marketing services.
+                Step into the lighter side of the internet with Faunten Network's meme marketing services.
                 </p>
                 <Link to="/meme" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -148,7 +148,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                Dive into the sphere of industry thought leaders and social media stars with Fox Media's influencer marketing services.
+                Dive into the sphere of industry thought leaders and social media stars with Faunten Network's influencer marketing services.
                 </p>
                 <Link to="/Influencer" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>

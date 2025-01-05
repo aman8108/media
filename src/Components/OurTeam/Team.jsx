@@ -9,10 +9,10 @@ function Team() {
       className="d-flex flex-column text-center align-items-center mx-auto gap-4 mb-4"
       style={{ maxWidth: 678 }}
     >
-      <div className="linear-gradient">
+      {/* <div className="linear-gradient">
         <span className="">Our Team</span>
-      </div>
-      <h3 className="fw-semibold">Meet Our&nbsp;Expert&nbsp;Team Members</h3>
+      </div> */}
+      <h3 className="fw-semibold">Our Team</h3>
       <p className="text-color-2">
         Our services are designed to maximize visibility, enhance brand
         recognition, and drive customer engagement.
