@@ -58,8 +58,8 @@ function ServiceP() {
     {/*=====SERVICE AREA START=======*/}
     <div className="service3 service-page sp">
       <div className="container">
-        <div className="row mb-4">
-          <div className="col-lg-4 col-md-6">
+          <div className="row mb-4">
+            <div className="col-lg-4 col-md-6">
             <div className="service3-box">
               <div className="image">
                 <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img1.png" alt="" />

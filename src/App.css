@@ -2116,6 +2116,7 @@ section, section .titleSection {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     .service3-box {
       margin-top: 50px;
       border-radius: 8px;
@@ -2166,6 +2167,17 @@ section, section .titleSection {
     }
   
     &.service-page {
+      .service4-box{
+        margin-top: 50px;
+        border-radius: 8px;
+        background: #F5F5fD;
+        padding: 12px 36px 52px 36px;
+        text-align: center;
+        position: relative;
+        transition: all .4s;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    height: 300px;
+      } 
       .service3-box {
         margin-top: 50px;
         border-radius: 8px;
