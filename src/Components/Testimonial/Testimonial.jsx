@@ -21,7 +21,7 @@ import krsna from "../Assets/krsna.png"
 import chotu from "../Assets/chotu.png"
 import yashashvi from "../Assets/yashashvi.png"
 import tiwa from "../Assets/tiwa.jpg"
-import miss from "../Assets/miss.jpg"
+import miss from "../Assets/f2.jpg"
 //import { FaFontAwesome } from 'react-icons/fa';
 
 function Testimonial() {
