@@ -47,10 +47,135 @@ Get set for your brand to become the buzz of the meme world by captivating gener
   </div>
 </section>
 
-<Footer/>
+
 
 </div>
+<section>
+<div className="service3 service-page sp">
+              <div className='container'>
+                      <div className="row mb-4">
+                      <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Social Media</h4>
+                           <div className="space16" />
+                           <p>
+                           Experienced marketers like Fauntennetwork use social media to reach target audiences, enhancing the success of marketing campaigns. Social media channels are often combined with an effective email marketing strategy, depending on the marketing company.
+ </p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Native Advertising</h4>
+                           <div className="space16" />
+                           <p>
+                           Native advertising integrates marketing messages within relevant content for better audience connection.
+For instance, after watching a gardening video, a related ad for gardening tools may appear.
+This approach ensures ads are contextually appropriate, enhancing user engagement.
+
+
+
+
+
+
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Content Marketing</h4>
+                           <div className="space16" />
+                           <p>Content marketing channels are platforms where you can opt to publish content. Some popular content marketing channels are YouTube, podcasts, Instagram, Tik Tok, Facebook, and personal websites.
+The content that you will publish will be carefully constructed to entice your target audience to choose your company to do business with.
+</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Affiliate Marketing</h4>
+                           <div className="space16" />
+                           <p>Paid promotion of your items by third parties, including bloggers, publishers, influencers, businesspeople, and other website owners, is known as affiliate marketing. You basically outsource sales promotions to a network of affiliates through a pay-for-performance marketing program.
+Through the use of an affiliate link on a website, blog, email, or social media platform, an affiliate markets your product to their audience.
+</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Freelance Digital Marketing</h4>
+                           <div className="space16" />
+                           <p>Knowing what is freelance digital marketing is quite important. You work independently and are not an employee of an organization as a freelance marketer. For freelance employment, a project- or task-based fee structure is used. Companies and businesses outsource a variety of responsibilities to independent contractors. There are several advantages to working freelance as well as some drawbacks.
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Click-Through Rate (CTR)</h4>
+                           <div className="space16" />
+                           <p>This is the percentage of people who click on an ad or link and then take the desired action (such as making a purchase). A high CTR means that people are interested in what you’re offering and are more likely to take the desired action.
+
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>Cost Per Conversion</h4>
+                           <div className="space16" />
+                           <p>
+This is how much it costs you to get someone to take the desired action, such as making a purchase. A low cost per conversion means that your campaign is efficient and you’re getting a good return on your investment.
+</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>A/B Testing</h4>
+                           <div className="space16" />
+                           <p>Conducting A/B testing on ad elements such as copy, images, and targeting to identify the most effective combinations.Iteratively optimizing campaigns based on test results.</p></div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>
+                           What Are The Benefits of Performance Marketing</h4>
+                           <div className="space16" />
+                           <p>With the digital marketing industry growing by the year, performance marketing has huge potential to scale your business when you embrace its full functionality.
+                           Here are the top three reasons why your business should invest in performance marketing
+                           </p>                         </div>
+                       </div>
+                     </div>
+                     
+                    
+                    
+                     </div>
+                     </div>
+                     </div>
+</section>
+<Footer/>
     </div>
+    
   )
 }
 

@@ -27,7 +27,8 @@ export default function GoodleAds() {
       </div>
       <div className="col-md-6 d-flex justify-content-center align-items-end">
         <div className="pricingTextt">
-          <h1>Goodle Ads</h1>
+        <Link to="/GoodleAds">
+          <h1> Goodle Ads </h1> </Link>
           <p>
           Step into the lighter side of the internet with Fauntennetwork’s meme marketing services. We turn viral trends into marketing treasures, crafting content that’s not just relatable but highly shareable too. Our team of meme specialists curate and create engaging, humorous content that strikes a chord with the target audience.Meme marketing can be defined as a new-age marketing strategy that uses memes to promote a product/service and communicate the brand narrative in a humorous, relatable way. The scope of meme marketing is huge: from a witty tweet to a parody video, brands can create content in unique and unassuming ways. Memes are a potent communication tool that combines humor, relatability, and underlying messages or themes that strike a chord with audiences. They spark dialogue, increase awareness, and articulate intricate emotions.With its ability to convey thoughts and emotions in a humorous and engaging way, memes can start conversations and bring people closer.
 
@@ -54,12 +55,11 @@ Get set for your brand to become the buzz of the meme world by captivating gener
                        <div className="service4-box">
                          
                          <div className="  heading4">
-                           <h4>Influencer Identification And Selection
+                           <h4>What Is Google Ads
                            </h4>
                            <div className="space16" />
-                           <p>We carefully select influencers whose audience aligns with your target demographic.
-Our network includes influencers from a variety of sectors, from lifestyle to tech, fashion, beauty and more.
-Macro and micro-influencers to suit your campaign goals and budget.
+                           <p>Google Ads formerly known as Google Adwords is an online advertising platform developed by Google, where advertisers bid to display brief advertisements, serviceGoogle Ads is ay product that you can use to promote your business, help sell products or services, raise awareness, and increase traffic to your website. Google Ads accounts are managed online, so you can create and change your ad campaign at any time, including your ad text, settings, and budget.
+
 
                            </p>
                          </div>
@@ -70,13 +70,17 @@ Macro and micro-influencers to suit your campaign goals and budget.
                          
                          <div className="  heading4">
                            <h4>
-                           Content Creation and Collaboration
+                           
+Campaign Setup And Management
+
 
 
                            </h4>
                            <div className="space16" />
-                           <p>Collaborating with influencers on the creation of sponsored content, including blog posts, social media posts, videos, and other formats.
-Ensuring that the content aligns with the brand's messaging and guidelines.
+                           <p>Setting up your Google Ads campaigns from scratch, including search, display, Shopping, and YouTube ads.
+Structuring your account for maximum efficiency and easy management.
+Ongoing management to adjust bids, targeting, and ad placement for best results.
+
 </p>
                          </div>
                        </div>
@@ -86,12 +90,13 @@ Ensuring that the content aligns with the brand's messaging and guidelines.
                          
                          <div className="  heading4">
                            <h4>
-Campaign Management
+                           Audience Targeting
+
 </h4>
                            <div className="space16" />
-                           <p>We handle all communications with influencers, from negotiations to contracts and content guidelines.
-Ensuring seamless collaboration and timely delivery of all content.
-Building long-term relationships with influencers for ongoing partnership
+                           <p>Utilizing audience targeting options to reach specific demographics, interests, or behaviors.
+Creating custom audiences and applying audience exclusions for more precise targeting.
+
 
  </p>
                          </div>
@@ -102,17 +107,17 @@ Building long-term relationships with influencers for ongoing partnership
                          
                          <div className="  heading4">
                            <h4>
-                           Campaign Strategy And Development
+                           Ad Creation And Optimization
+
 
 
 
                            </h4>
                            <div className="space16" />
-                           <p>Customized influencer marketing strategies designed to meet your brand objectives.
-We develop engaging campaigns that reflect your brand values ​​and messaging.
-Multi-channel strategies (Instagram, YouTube, TikTok, Snapchat, blogs, etc.) to maximize reach and engagement.
-
- </p>
+                           <p>Crafting compelling ad copy
+and creative that grabs attention and drives conversions.
+Continuously optimizing ad performance to improve click-through rates (CTR) and conversion rates.
+</p>
                          </div>
                        </div>
                      </div>
@@ -120,12 +125,15 @@ Multi-channel strategies (Instagram, YouTube, TikTok, Snapchat, blogs, etc.) to 
                        <div className="service4-box">
                          
                          <div className="  heading4">
-                           <h4>Influencer Outreach
+                           <h4>Keyword Research
+
 
                            </h4>
                            <div className="space16" />
-                           <p>Conducting outreach to potential influencers to gauge interest and availability.
-Building and maintaining relationships with influencers.
+                           <p>
+Conducting thorough keyword research to identify relevant and high-performing keywords for ad targeting.
+Refining and updating keyword lists to improve campaign performance.
+
 
                            </p>
                          </div>
@@ -136,15 +144,15 @@ Building and maintaining relationships with influencers.
                          
                          <div className="  heading4">
                            <h4>
-                           Performance Tracking And Analytics
+                           Match Type
+
 
 
 
                            </h4>
                            <div className="space16" />
-                           <p>Detailed reports on the success of your influencer campaigns, including reach, engagement, conversions, and ROI.
-Data-driven insights to optimize future campaigns and strategies.
-Transparent reporting so you can see the real value of your influencer partnerships.
+                           <p>Keyword match type is a function that allows you to choose how closely you want the keywords attached to your ad to align with a user’s search query. There are different options available when it comes to match type. For example, you might want to go with an exact match, meaning that your ad is only going to show up when people are looking for that specific word or phrase. 
+
 
 
                            
@@ -159,13 +167,14 @@ Transparent reporting so you can see the real value of your influencer partnersh
                            <h4>
                             
 
-                           Long-Term Relationship Building
+                           Conversion Tracking and Optimization
+
 
 
                            </h4>
                            <div className="space16" />
-                           <p>Building and maintaining long-term relationships with influencers for ongoing campaigns or ambassador programs.
-Nurturing relationships beyond individual campaigns.
+                           <p>Setting up conversion tracking to monitor key actions such as purchases, sign-ups, or inquiries.
+Using data-driven insights to optimize campaigns for higher conversion rates and lower cost per acquisition (CPA) Creating custom landing pages designed to increase conversions from your Google Ads traffic.
 
 
                            </p>
@@ -178,12 +187,55 @@ Nurturing relationships beyond individual campaigns.
                          <div className="  heading4">
                            <h4>
                            
-Influencer Events And Activations
+                           Ad Performance Analysis
+
 
                            </h4>
                            <div className="space16" />
-                           <p>Planning and executing events or activations that involve influencers.
-                           Maximizing the impact of influencer partnerships through real-world experiences.
+                           <p>Analyzing key performance indicators (KPIs) such as click-through rate (CTR), conversion rate, and return on ad spend (ROAS).
+Using data to make informed decisions and optimize campaigns for better results.
+
+                           </p>                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>
+                           
+                           Budget Management
+
+
+
+                           </h4>
+                           <div className="space16" />
+                           <p>
+Setting and managing daily or monthly budgets to control advertising expenses.
+Monitoring budget allocation across campaigns and adjusting as needed.
+
+
+                           </p>                         </div>
+                       </div>
+                     </div>
+                     <div className="col-lg-4 col-md-6">
+                       <div className="service4-box">
+                         
+                         <div className="  heading4">
+                           <h4>
+                           
+                           A/B Testing
+
+
+
+
+                           </h4>
+                           <div className="space16" />
+                           <p>
+                           Conducting A/B testing (split testing) of ad creatives, copy, and landing pages to identify the most effective elements.
+                           Iteratively refining campaigns based on test results.
+
+
                            </p>                         </div>
                        </div>
                      </div>
