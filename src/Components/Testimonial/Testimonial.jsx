@@ -18,7 +18,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import amit from "../Assets/amitt.jpg"
 import motu from "../Assets/motuseth.png"
 import krsna from "../Assets/krsna.png"
-import chotu from "../Assets/chotu.png"
+import chotu from "../Assets/f1.jpg"
 import yashashvi from "../Assets/yashashvi.png"
 import tiwa from "../Assets/tiwa.jpg"
 import miss from "../Assets/f2.jpg"
@@ -242,7 +242,7 @@ function Testimonial() {
       alt="Reviewer"
       className="reviewer-image"
     />
-     <h3>Vikas Jain</h3>
+     <h3>Sakshi Jain</h3>
      <FaStar style={{ color: "#FFD43B" }} />
     <FaStar style={{ color: "#FFD43B" }} />        
     <FaStar style={{ color: "#FFD43B" }} />

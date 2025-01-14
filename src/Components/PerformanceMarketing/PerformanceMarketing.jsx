@@ -104,8 +104,7 @@ The content that you will publish will be carefully constructed to entice your t
                          <div className="  heading4">
                            <h4>Affiliate Marketing</h4>
                            <div className="space16" />
-                           <p>Paid promotion of your items by third parties, including bloggers, publishers, influencers, businesspeople, and other website owners, is known as affiliate marketing. You basically outsource sales promotions to a network of affiliates through a pay-for-performance marketing program.
-Through the use of an affiliate link on a website, blog, email, or social media platform, an affiliate markets your product to their audience.
+                           <p>Affiliate marketing involves third parties, like bloggers and influencers, promoting your products through a pay-for-performance program. Affiliates use special links on websites, blogs, emails, or social media to market your product to their audience, earning a commission for each sale they generate.
 </p>
                          </div>
                        </div>
@@ -116,7 +115,7 @@ Through the use of an affiliate link on a website, blog, email, or social media 
                          <div className="  heading4">
                            <h4>Freelance Digital Marketing</h4>
                            <div className="space16" />
-                           <p>Knowing what is freelance digital marketing is quite important. You work independently and are not an employee of an organization as a freelance marketer. For freelance employment, a project- or task-based fee structure is used. Companies and businesses outsource a variety of responsibilities to independent contractors. There are several advantages to working freelance as well as some drawbacks.
+                           <p>Freelance digital marketing involves working independently, not as an employee, and charging project- or task-based fees. Companies outsource various tasks to freelancers, offering flexibility and diverse opportunities, though it comes with both benefits and challenges.
                            </p>
                          </div>
                        </div>

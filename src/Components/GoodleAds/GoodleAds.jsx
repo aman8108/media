@@ -58,7 +58,7 @@ Get set for your brand to become the buzz of the meme world by captivating gener
                            <h4>What Is Google Ads
                            </h4>
                            <div className="space16" />
-                           <p>Google Ads formerly known as Google Adwords is an online advertising platform developed by Google, where advertisers bid to display brief advertisements, serviceGoogle Ads is ay product that you can use to promote your business, help sell products or services, raise awareness, and increase traffic to your website. Google Ads accounts are managed online, so you can create and change your ad campaign at any time, including your ad text, settings, and budget.
+                           <p>Google Ads, formerly known as Google AdWords, is an online advertising platform by Google where advertisers bid to display ads, promote businesses, sell products or services, raise awareness, and drive website traffic. It allows users to manage ad campaigns online, making it easy to create, modify, and adjust ad text, settings, and budgets at any time.
 
 
                            </p>
