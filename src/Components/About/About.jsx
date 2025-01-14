@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import aboutright from "../Assets/FaboutDigital-Marketing-3.png"
 
 function About() {
   useEffect(() => {
@@ -73,7 +74,7 @@ function About() {
               <div className="col position-relative ps-lg-0 ps-0 mb-3">
                 <div className="mb-5 px-5">
                   <img
-                    src="https://prositus.rometheme.pro/html/demos/prodigy/image/Digital-Marketing-3.png"
+                    src={aboutright}
                     alt=""
                     className="img-fluid-abt"
                   />

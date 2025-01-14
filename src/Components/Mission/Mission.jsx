@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // import AOS styles
-
+import missi from "../Assets/mission.86521dbb8a2290379d71.png"
+import vissi from "../Assets/vission.6d0a1938fabc017754e5.png"
 function Mission() {
   useEffect(() => {
     AOS.init({ duration: 1000 }); // Initialize AOS with a duration for smooth animation
@@ -20,7 +21,7 @@ function Mission() {
               <div className="missionVissionCard">
                 <div className="cardImage">
                   <img
-                    src="https://skdm.in/static/media/mission.86521dbb8a2290379d71.png"
+                    src={missi}
                     alt="About Mission"
                   />
                 </div>
@@ -36,7 +37,7 @@ function Mission() {
               <div className="missionVissionCard">
                 <div className="cardImage">
                   <img
-                    src="https://skdm.in/static/media/vission.6d0a1938fabc017754e5.png"
+                    src={vissi}
                     alt="About Vision"
                   />
                 </div>

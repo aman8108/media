@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import perff from "../Assets/Fonline_marketing.png"
+import influ from "../Assets/Fonline_shopping.png"
+import meta from "../Assets/F_seo.png"
 
 function Service() {
   useEffect(() => {
@@ -50,7 +53,7 @@ function Service() {
                     <div className="card card-outline-hover gap-3 align-items-center text-center p-5 h-100">
                       <div className="icon-box">
                         <img
-                          src="https://prositus.rometheme.pro/html/demos/prodigy/image/online_marketing.png"
+                          src={perff}
                           className="img-fluid"
                           alt=""
                         />
@@ -74,7 +77,7 @@ function Service() {
                     <div className="card card-outline-hover gap-3 align-items-center text-center p-5 h-100">
                       <div className="icon-box">
                         <img
-                          src="https://prositus.rometheme.pro/html/demos/prodigy/image/online_shopping.png"
+                          src={influ}
                           className="img-fluid"
                           alt=""
                         />
@@ -98,7 +101,7 @@ function Service() {
                     <div className="card card-outline-hover gap-3 align-items-center text-center p-5 h-100">
                       <div className="icon-box">
                         <img
-                          src="https://prositus.rometheme.pro/html/demos/prodigy/image/seo.png"
+                          src={meta}
                           className="img-fluid"
                           alt=""
                         />

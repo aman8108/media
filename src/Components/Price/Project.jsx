@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdVerified } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import proL from "../Assets/proL.jpg"
 
 function Project() {
   return (
@@ -65,7 +66,7 @@ function Project() {
       <div className="col col-xl-5">
         <div className="d-flex flex-column gap-3 mb-3">
           <img
-            src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-1920x1280-25.jpg"
+            src={proL}
             alt=""
             className="img-fluid rounded-4"
             width="100%"

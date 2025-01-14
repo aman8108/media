@@ -1,4 +1,7 @@
 import React from 'react'
+import emli from "../Assets/emli.jpg"
+import devid from "../Assets/devid.jpg"
+import Alicia from "../Assets/Alicia.jpg"
 
 function Team() {
   return (
@@ -22,7 +25,7 @@ function Team() {
       <div className="col mb-3">
         <div className="position-relative">
           <img
-            src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-600x800-3.jpg"
+            src={devid}
             alt="image"
             className="img-fluid rounded-3 w-100"
           />
@@ -56,8 +59,7 @@ function Team() {
       <div className="col mb-3">
         <div className="position-relative">
           <img
-            src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-600x800-16.jpg"
-            alt="image"
+            src={Alicia}            alt="image"
             className="img-fluid rounded-3 w-100"
           />
           <div
@@ -90,7 +92,7 @@ function Team() {
       <div className="col mb-3">
         <div className="position-relative">
           <img
-            src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-600x800-15.jpg"
+            src={emli}
             alt="image"
             className="img-fluid rounded-3 w-100"
           />

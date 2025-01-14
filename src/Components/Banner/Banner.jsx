@@ -2,6 +2,7 @@ import React from 'react'
 import { CiPlay1 } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 import Typewriter from "typewriter-effect";
+import BANNER from "../Assets/F-bannerImg.jpg"
 
 
 
@@ -11,7 +12,7 @@ function Banner() {
       <div className="section desktop-banner position-relative ps-0">
   <div className="floating-banner-land">
     <img
-      src="https://prositus.rometheme.pro/html/demos/prodigy/image/image-1920x1280-19.jpg"
+      src={BANNER}
       alt=""
       className="img-fluid-land"
       // style={{ borderTopRightRadius: "30em", borderBottomRightRadius: "30em" }}
