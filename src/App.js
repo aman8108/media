@@ -12,6 +12,9 @@ import DetailsPage from './Page/DetailsPage';
 import ProjectMusic from './Page/ProjectMusic';
 import BrandDetailP from './Page/BrandDetailP';
 import Gmbp from './Page/Gmbp';
+import Seop from './Page/Seop';
+import Contentp from './Page/Contentp';
+import Webp from './Page/Webp';
 import Memep from './Page/Memep';
 import MetaAdsPage from './Page/MetaAdsPage';
 import InfluencerPage from './Page/InfluencerPage';
@@ -46,6 +49,10 @@ function App() {
          <Route path='/Graphicsdesign' element={<Graphicsdesignpage/>} />
          <Route path='/OutDoorMarketing' element={<OutdoorPage/>} />
          <Route path='/PerformanceMarketing' element={<PerformanceMarketingPage/>} />
+         <Route path='/seo' element={<Seop/>} />
+         <Route path='/content' element={<Contentp/>} />
+         <Route path='/web' element={<Webp/>} />
+
          
          
          </Routes>
