@@ -186,7 +186,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  At Faunten Media, we comprehend that exceptional design transcends mere aesthetics.
+                  At Faunten Network, we comprehend that exceptional design transcends mere aesthetics.
                 </p>
                 <Link to="/Graphicsdesign" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>

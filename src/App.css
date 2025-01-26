@@ -2426,6 +2426,7 @@ section, section .titleSection {
     max-width: 600px;
     margin: 0 auto;
     font-family: 'Arial', sans-serif;
+    color:#fff;
   }
   
   /* Media queries for responsiveness */
@@ -2722,7 +2723,7 @@ h3 a{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     height: 100%;
     color: black;
@@ -5614,7 +5615,7 @@ svg {
 
 
 .navbar-brand img {
-  max-height: 40px; /* Matches the default navbar height */
+  /* max-height: 40px; Matches the default navbar height */
 }
 
 .marq img{
@@ -5757,4 +5758,11 @@ display: none !important;
 }
 .us-p p{
   padding:0 20px;
+}
+.col-9{
+  color:#fff;
+
+} 
+.w-max-content{
+  color:#1e90ff;
 }

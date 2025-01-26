@@ -37,7 +37,7 @@ Get set for your brand to become the buzz of the meme world by captivating gener
           <div className="buttonsList">
               <Link to="/contact">
               <button className="btn btn-accent px-5 py-3">
-              Pricing <i className="fa fa-angle-right" aria-hidden="true" />
+              Contact Us<i className="fa fa-angle-right" aria-hidden="true" />
             </button>
               </Link>
             
