@@ -64,7 +64,7 @@ function Content() {
           <div className="pricingTextt">
             <h1>Content Creation</h1>
             <p>
-            In the realm of digital marketing, content is the pulsating heartbeat, and at Fox Media, our content creation services are designed to quicken that beat. We’re not just storytellers; we’re creators of experiences. From captivating blog posts to compelling videos, infographics, and interactive content. We craft narratives that captivate, educate, and drive conversions. Our content acts as the bridge that connects your brand with your audience, establishing your authority and resonance in the industry.
+            In the realm of digital marketing, content is the pulsating heartbeat, and at Faunten Network, our content creation services are designed to quicken that beat. We’re not just storytellers; we’re creators of experiences. From captivating blog posts to compelling videos, infographics, and interactive content. We craft narratives that captivate, educate, and drive conversions. Our content acts as the bridge that connects your brand with your audience, establishing your authority and resonance in the industry.
             </p>
           <div></div>
           </div>

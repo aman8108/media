@@ -131,7 +131,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                In the realm of digital marketing, content is the pulsating heartbeat, and at Fox Media.
+                In the realm of digital marketing, content is the pulsating heartbeat, and at Faunten Network.
                 </p>
                 <Link to="/content" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
@@ -150,7 +150,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                Unleash the power of organic search with Fox Media's results-driven SEO services.
+                Unleash the power of organic search with Faunten Network's results-driven SEO services.
                 </p>
                 <Link to="/seo" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
