@@ -19,7 +19,7 @@ function Banner() {
     />
   </div>
   <div className="r-container ps-4 ps-xl-0">
-    <div className="row row-cols-lg-2 row-cols-1 align-items-center">
+    <div className="row row-cols-lg-2 row-cols-1 align-items-center" style={{marginLeft:0}}>
       <div className="col"></div>
       <div className="col ps-4 pe-0">
         <div className="d-flex flex-column gap-4">
