@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
 
 import { FaTelegram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { SlSocialInstagram } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
@@ -35,14 +36,17 @@ function Footer() {
               We help companies achieve long-term growth by becoming their personal marketing department not as a typical “vendor” In a world where success is ushered by digital footprints.
               </p>
               <div className="social-container mb-lg-0 mb-3">
-                <a href="https://www.linkedin.com/in/faunten-network-82785a312" className="social-item">
+                <a href="https://www.linkedin.com/in/faunten-network-82785a312" target="_blank" className="social-item">
                   <i className="fa-brands fa-xs fa-facebook-f"><FaLinkedinIn /></i>
                 </a>
-                <a href="https://t.me/fauntennetwork1" className="social-item">
+                <a href="https://t.me/fauntennetwork1" target="_blank" className="social-item">
                   <i className="fa-brands fa-xs fa-twitter"><FaTelegram /></i>
                 </a>
-                <Link to="https://www.instagram.com/fauntennetwork.in" className="social-item">
+                <Link to="https://www.instagram.com/fauntennetwork.in" target="_blank" className="social-item">
                   <i className="fa-brands fa-xs fa-instagram"><SlSocialInstagram /></i>
+                </Link>
+                <Link to="https://whatsapp.com/channel/0029VaWKVO0C6Zvflj41t108" target="_blank" className="social-item">
+                  <i className="fa-brands fa-xs fa-instagram"><FaWhatsapp /></i>
                 </Link>
                 {/* <a href="https://www.youtube.com" className="social-item">
                   <i className="fa-brands fa-xs fa-youtube" />
@@ -63,7 +67,7 @@ function Footer() {
                         to="/"
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
-                        Homepage
+                        Home
                       </Link>
                     </li>
                     <li>
@@ -80,6 +84,14 @@ function Footer() {
                         className="link d-flex flex-row gap-3 align-items-center"
                       >
                         Our Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/contact"
+                        className="link d-flex flex-row gap-3 align-items-center"
+                      >
+                        Contact Us
                       </Link>
                     </li>
                     {/* <li>

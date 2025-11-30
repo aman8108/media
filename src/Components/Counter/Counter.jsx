@@ -7,20 +7,20 @@ function Counter() {
   <div className="r-container">
     <div className="row row-cols-xl-4 row-cols-1 text-center">
       <div className="col mb-3">
-        <h2 className="fw-bold accent-color-2 outline">20+</h2>
-        <h4>Years Experience</h4>
+        <h2 className="fw-bold accent-color-2 outline">2600+</h2>
+        <h4>Campaign Managed</h4>
       </div>
       <div className="col mb-3">
-        <h2 className="fw-bold accent-color-2 outline">250+</h2>
-        <h4>Statisfied Customers</h4>
+        <h2 className="fw-bold accent-color-2 outline">1350+</h2>
+        <h4>Cities Covered</h4>
       </div>
       <div className="col mb-3">
-        <h2 className="fw-bold accent-color-2 outline">5+</h2>
-        <h4>Branch Office</h4>
+        <h2 className="fw-bold accent-color-2 outline">5B+</h2>
+        <h4>Weekly User Interaction</h4>
       </div>
       <div className="col mb-3">
-        <h2 className="fw-bold accent-color-2 outline">80+</h2>
-        <h4>Partner Company</h4>
+        <h2 className="fw-bold accent-color-2 outline">650+</h2>
+        <h4>Direct Advertisers</h4>
       </div>
     </div>
   </div>

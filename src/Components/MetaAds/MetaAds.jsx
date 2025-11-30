@@ -36,7 +36,7 @@ In a competitive online world now inundated with flashy sales and advertisements
           <div className="buttonsList">
               <Link to="/contact">
               <button className="btn btn-accent px-5 py-3">
-              Pricing <i className="fa fa-angle-right" aria-hidden="true" />
+              Contact Us <i className="fa fa-angle-right" aria-hidden="true" />
             </button>
               </Link>
             
@@ -154,7 +154,7 @@ Key Benefits of Meta Ads
 
                            </h4>
                            <div className="space16" />
-                           <p>One of the key benefits of Meta Ads is their precise targeting options. Advertisers can target users based on demographics, interests, and behaviors, ensuring that their ads are delivered to the right people at the right time. This targeted approach can significantly improve the effectiveness of your ads, ultimately helping you achieve your campaign objectives.
+                           <p>One of the key benefits of Meta Ads is their precise targeting options. Advertisers can target users based on demographics, interests, and behaviors, ensuring that their ads are delivered to the right people at the right time.
 
                            </p>
                          </div>
@@ -182,7 +182,7 @@ Key Benefits of Meta Ads
                            </h4>
                            <div className="space16" />
                            <p>Detailed performance reports that track key metrics like impressions, clicks, conversions, and ROI.
-Insights and recommendations to improve campaign performance and drive better results.Transparent reporting so you can see how your ads are performing and the impact they’re having on your business
+Insights and recommendations to improve campaign performance and drive better results.  
 </p>                         </div>
                        </div>
                      </div>
@@ -194,7 +194,7 @@ Insights and recommendations to improve campaign performance and drive better re
                            </h4>
                            <div className="space16" />
                            <p>Running A/B tests on ad creatives, headlines, and targeting strategies to identify the most effective combination.Continuously optimizing campaigns based on real-time performance data to maximize ROI.
-                           Adjusting budgets, targeting, and creatives to ensure you’re getting the best results from your ads.</p>                         </div>
+                           </p>                         </div>
                        </div>
                      </div>
                     

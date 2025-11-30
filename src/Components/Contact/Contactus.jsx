@@ -22,7 +22,7 @@ function Contactus() {
 
     emailjs
       .send(
-        "service_dfqfzmz", // Replace with your service ID
+        "service_oqk9dhe", // Replace with your service ID
         "template_xcvkaug", // Replace with your template ID
         {
           to_name:'Faunten Network',

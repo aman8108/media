@@ -72,9 +72,12 @@ function ServiceP() {
                 <p>
                 Unlock the true potential of your brand with Faunten Network's comprehensive brand-building services.
                 </p>
-                <a href="#" className="learn">
+                {/* <a href="#" className="learn">
                   <i to className="fa-solid fa-arrow-right"><Link to="/brandbuilding"><FaArrowAltCircleRight /></Link></i>
-                </a>
+                </a> */}
+                <Link to="/brandbuilding" className="learn">
+                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                </Link>
               </div>
             </div>
           </div>
@@ -93,6 +96,63 @@ function ServiceP() {
                 Put your business on the digital map with Faunten Network's Google My Business (GMB) optimization.
                 </p>
                 <Link to="/gmb" className="learn">
+                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="service3-box">
+              <div className="image">
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img2.png" alt="" />
+              </div>
+              <div className="heading3">
+                <h4>
+                  <Link to="/web">Website Marketing</Link>
+                </h4>
+                <div className="space16" />
+                <p>
+                Website design and development are the dynamic duo that shapes the online identity of your business.
+                </p>
+                <Link to="/web" className="learn">
+                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="service3-box">
+              <div className="image">
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img2.png" alt="" />
+              </div>
+              <div className="heading3">
+                <h4>
+                  <Link to="/content">Content Creation</Link>
+                </h4>
+                <div className="space16" />
+                <p>
+                In the realm of digital marketing, content is the pulsating heartbeat, and at Faunten Network.
+                </p>
+                <Link to="/content" className="learn">
+                  <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="service3-box">
+              <div className="image">
+                <img src="https://html.fleexstudio.com/seomax/assets/img/service/service3-img2.png" alt="" />
+              </div>
+              <div className="heading3">
+                <h4>
+                  <Link to="/seo">SEO Service</Link>
+                </h4>
+                <div className="space16" />
+                <p>
+                Unleash the power of organic search with Faunten Network's results-driven SEO services.
+                </p>
+                <Link to="/seo" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
                 </Link>
               </div>
@@ -186,7 +246,7 @@ function ServiceP() {
                 </h4>
                 <div className="space16" />
                 <p>
-                  At Faunten Media, we comprehend that exceptional design transcends mere aesthetics.
+                  At Faunten Network, we comprehend that exceptional design transcends mere aesthetics.
                 </p>
                 <Link to="/Graphicsdesign" className="learn">
                   <i className="fa-solid fa-arrow-right"><FaArrowAltCircleRight /></i>
